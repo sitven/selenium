@@ -1,0 +1,18 @@
+2018-08-13 16:01:38,779 - root - INFO - ############################### START ###############################
+2018-08-13 16:01:44,596 - root - INFO - Success set browser window maximized, Spend 1.22074seconds
+2018-08-13 16:01:44,600 - root - INFO - Success set wait all element display in 4 seconds.
+2018-08-13 16:01:44,958 - root - INFO - Success navigated to https://duct.pangku.com/admin/auth/login, Spend 0.35605 seconds
+2018-08-13 16:01:49,492 - root - INFO - Fail unable to type element: <xpath->//*[@id='cellphone']> content: ,Spend 4.53355 seconds-- from: E:\GitHub\public -><test_case.page_obj.a1_pk_loginPage.login object at 0x0365B870>
+2018-08-13 16:01:49,682 - root - INFO - Success navigated to https://duct.pangku.com/admin/auth/login, Spend 0.07878 seconds
+2018-08-13 16:01:51,789 - root - INFO - Fail unable to type element: <xpath->//*[@id='cellphone']> content: ,Spend 2.10566 seconds-- from: E:\GitHub\public -><test_case.page_obj.a1_pk_loginPage.login object at 0x0365B670>
+2018-08-13 16:01:51,802 - root - INFO - Fail unable to load https://duct.pangku.com/admin/auth/login, Spend 0.00299 seconds
+2018-08-13 16:01:51,809 - root - INFO - Fail unable to load https://duct.pangku.com/admin/auth/login, Spend 0.00199 seconds
+2018-08-13 16:01:51,816 - root - INFO - Fail unable to load https://duct.pangku.com/admin/auth/login, Spend 0.00200 seconds
+2018-08-13 16:03:55,716 - root - INFO - ############################### START ###############################
+2018-08-13 16:04:01,601 - root - INFO - Success set browser window maximized, Spend 1.20439seconds
+2018-08-13 16:04:01,616 - root - INFO - Success set wait all element display in 4 seconds.
+2018-08-13 16:04:01,996 - root - INFO - Success navigated to https://duct.pangku.com/admin/auth/login, Spend 0.37200 seconds
+2018-08-13 16:04:04,095 - root - INFO - Fail unable to type element: <xpath->//*[@id='cellphone']> content: ,Spend 2.09799 seconds-- from: E:\GitHub\public -><test_case.page_obj.a1_pk_loginPage.login object at 0x03DDE190>
+2018-08-13 16:04:04,113 - root - INFO - Fail unable to load https://duct.pangku.com/admin/auth/login, Spend 0.00297 seconds
+2018-08-13 16:04:04,124 - root - INFO - Fail unable to load https://duct.pangku.com/admin/auth/login, Spend 0.00297 seconds
+2018-08-13 16:04:04,136 - root - INFO - Fail unable to load https://duct.pangku.com/admin/auth/login, Spend 0.00299 seconds

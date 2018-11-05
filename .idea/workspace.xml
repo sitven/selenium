@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="07aefc03-a2b2-4cc1-a71e-d8ef91912555" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_selenium59_BolgHome.coverage" NAME="Unittests for selenium59.BolgHome Coverage Results" MODIFIED="1530603086930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/selenium" />
+    <SUITE FILE_PATH="coverage/GitHub$login_logout.coverage" NAME="login_logout Coverage Results" MODIFIED="1529562285900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/GitHub$function__1_.coverage" NAME="function (1) Coverage Results" MODIFIED="1533541425137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/selenium自动化框架/selenium-python-master/public" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_baidu_counttest_test_add.coverage" NAME="Unittests for baidu.counttest.test_add Coverage Results" MODIFIED="1530857560805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/GitHub$datainfo.coverage" NAME="datainfo Coverage Results" MODIFIED="1539912758818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/GitHub$uesr_info.coverage" NAME="uesr_info Coverage Results" MODIFIED="1530678246614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_test_2_Test_test_d.coverage" NAME="Unittests for test_2.Test.test_d Coverage Results" MODIFIED="1530598970325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_18_7_3/baidu" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_test4_Test.coverage" NAME="Unittests for test4.Test Coverage Results" MODIFIED="1530610400670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/2018_6/case/blog" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_in_test_02_py.coverage" NAME="Unittests in test_02.py Coverage Results" MODIFIED="1531377486022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_test_Bolg.coverage" NAME="Unittests for test.Bolg Coverage Results" MODIFIED="1531280832877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/GitHub$login.coverage" NAME="login Coverage Results" MODIFIED="1529573368767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_1/test_baidu" />
+    <SUITE FILE_PATH="coverage/GitHub$run_ai_test__1_.coverage" NAME="run_ai_test (1) Coverage Results" MODIFIED="1533525861786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/selenium自动化框架/migu-web-1-master/migu-web-1-master" />
+    <SUITE FILE_PATH="coverage/GitHub$case.coverage" NAME="case Coverage Results" MODIFIED="1531293728248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/GitHub$base__1_.coverage" NAME="base (1) Coverage Results" MODIFIED="1531734489903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/selenium自动化框架/selenium-python-master/public" />
+    <SUITE FILE_PATH="coverage/GitHub$base.coverage" NAME="base Coverage Results" MODIFIED="1533696452856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/GitHub$exceptionscr.coverage" NAME="exceptionscr Coverage Results" MODIFIED="1539853987891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/GitHub$log.coverage" NAME="log Coverage Results" MODIFIED="1533538873820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/GitHub$a1_loginPage.coverage" NAME="a1_loginPage Coverage Results" MODIFIED="1533547089369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/page_obj" />
+    <SUITE FILE_PATH="coverage/GitHub$test_HTMLTestRunner.coverage" NAME="test_HTMLTestRunner Coverage Results" MODIFIED="1530784597637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_loginout_Bolg.coverage" NAME="Unittests for loginout.Bolg Coverage Results" MODIFIED="1529552387118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_run_Test_test_02.coverage" NAME="Unittests for run.Test.test_02 Coverage Results" MODIFIED="1532944441926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_selenium51_Test_testbaidu.coverage" NAME="Unittests for selenium51.Test.testbaidu Coverage Results" MODIFIED="1530505535725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/selenium" />
+    <SUITE FILE_PATH="coverage/GitHub$test_aa.coverage" NAME="test_aa Coverage Results" MODIFIED="1531192209727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_test_11_Test.coverage" NAME="Unittests for test_11.Test Coverage Results" MODIFIED="1532399251275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/GitHub$data_read.coverage" NAME="data_read Coverage Results" MODIFIED="1533716539740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data/test_data" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_selenium56_Test_test03.coverage" NAME="Unittests for selenium56.Test.test03 Coverage Results" MODIFIED="1530608377525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/selenium" />
+    <SUITE FILE_PATH="coverage/GitHub$globalparam__3_.coverage" NAME="globalparam (3) Coverage Results" MODIFIED="1531993774136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/config" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_in_case_py.coverage" NAME="Unittests in case.py Coverage Results" MODIFIED="1531215382384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_run_all_case_Test_case_test_2.coverage" NAME="Unittests for run_all_case.Test_case.test_2 Coverage Results" MODIFIED="1532074394995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GitHub$myunit.coverage" NAME="myunit Coverage Results" MODIFIED="1532502718112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/selenium自动化框架/migu-web-1-master/migu-web-1-master/public" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_test_b_Test_test_a.coverage" NAME="Unittests for test_b.Test.test_a Coverage Results" MODIFIED="1529914800250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/public" />
+    <SUITE FILE_PATH="coverage/GitHub$browser.coverage" NAME="browser Coverage Results" MODIFIED="1532502230075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/GitHub$test_excel.coverage" NAME="test_excel Coverage Results" MODIFIED="1530678140256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_in_test_11_py.coverage" NAME="Unittests in test_11.py Coverage Results" MODIFIED="1532399234596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/GitHub$run_all_case.coverage" NAME="run_all_case Coverage Results" MODIFIED="1532503979267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_run_Test_test_01.coverage" NAME="Unittests for run.Test.test_01 Coverage Results" MODIFIED="1533006192758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_in_login_logout_py.coverage" NAME="Unittests in login_logout.py Coverage Results" MODIFIED="1529561003057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_run_Test.coverage" NAME="Unittests for run.Test Coverage Results" MODIFIED="1533004192903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GitHub$function.coverage" NAME="function Coverage Results" MODIFIED="1533720700693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/GitHub$selenium58a.coverage" NAME="selenium58a Coverage Results" MODIFIED="1530521963291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/selenium" />
+    <SUITE FILE_PATH="coverage/GitHub$tes.coverage" NAME="tes Coverage Results" MODIFIED="1539915438575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_test_Bolg_test_login.coverage" NAME="Unittests for test.Bolg.test_login Coverage Results" MODIFIED="1531274147158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_in_my_unit_py.coverage" NAME="Unittests in my_unit.py Coverage Results" MODIFIED="1533522427734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_in_test_1_py.coverage" NAME="Unittests in test_1.py Coverage Results" MODIFIED="1530598914195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_18_7_3/baidu" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_in_test_3_py.coverage" NAME="Unittests in test_3.py Coverage Results" MODIFIED="1530599166925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_18_7_3/blog" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_run_all_case_Test_case_test_3.coverage" NAME="Unittests for run_all_case.Test_case.test_3 Coverage Results" MODIFIED="1532076010470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_selenium55_Test.coverage" NAME="Unittests for selenium55.Test Coverage Results" MODIFIED="1530606902400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/selenium" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_run_all_case_Test_case.coverage" NAME="Unittests for run_all_case.Test_case Coverage Results" MODIFIED="1532081735974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GitHub$test_cc.coverage" NAME="test_cc Coverage Results" MODIFIED="1531190381388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/GitHub$case1.coverage" NAME="case1 Coverage Results" MODIFIED="1530689396925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_in_open_down_py.coverage" NAME="Unittests in mytest.py Coverage Results" MODIFIED="1529566871720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/browsers" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_in_ff_py.coverage" NAME="Unittests in ff.py Coverage Results" MODIFIED="1530669134476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/2018_6/report" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_test_02_Test.coverage" NAME="Unittests for test_02.Test Coverage Results" MODIFIED="1531366431305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/GitHub$testchrome.coverage" NAME="testchrome Coverage Results" MODIFIED="1531274443697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_in_selenium59_py.coverage" NAME="Unittests in selenium55.py Coverage Results" MODIFIED="1530606809658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/selenium" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_in_baidu_py.coverage" NAME="Unittests in baidu.py Coverage Results" MODIFIED="1530869774157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_start_baidu_BaiduTest.coverage" NAME="Unittests for start_baidu.BaiduTest Coverage Results" MODIFIED="1530672457658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/case" />
+    <SUITE FILE_PATH="coverage/GitHub$test_base_page.coverage" NAME="test_base_page Coverage Results" MODIFIED="1531903155831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_selenium56_Test_test01.coverage" NAME="Unittests for selenium56.Test.test01 Coverage Results" MODIFIED="1530609446266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/selenium" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_loginout_Bolg_test_01.coverage" NAME="Unittests for loginout.Bolg.test_01 Coverage Results" MODIFIED="1529552398507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/GitHub$data_data.coverage" NAME="data_data Coverage Results" MODIFIED="1530695087033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
+    <SUITE FILE_PATH="coverage/GitHub$readconfig.coverage" NAME="readconfig Coverage Results" MODIFIED="1533540320577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_in_a1_pk_test_loginPage_py.coverage" NAME="Unittests in a1_pk_test_loginPage.py Coverage Results" MODIFIED="1534147435386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/page_test" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_test2_Test.coverage" NAME="Unittests for test2.Test Coverage Results" MODIFIED="1530610300809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/2018_6/case/baidu" />
+    <SUITE FILE_PATH="coverage/GitHub$_.coverage" NAME="登录案例-函数 Coverage Results" MODIFIED="1529899904245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/2018_6/jichu" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_baidu_counttest.coverage" NAME="Unittests for baidu.counttest Coverage Results" MODIFIED="1530857761099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_test_11_TestMyLog_test_print_log.coverage" NAME="Unittests for test_11.TestMyLog.test_print_log Coverage Results" MODIFIED="1532399222466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_test_baidu_TestBrowser_test_baidu_1.coverage" NAME="Unittests for test_baidu.TestBrowser.test_baidu_1 Coverage Results" MODIFIED="1529657384174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/GitHub$moudle.coverage" NAME="moudle Coverage Results" MODIFIED="1529889998644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_csh" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_case_Test_test_a.coverage" NAME="Unittests for case.Test.test_a Coverage Results" MODIFIED="1530840085192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/GitHub$moudle__1_.coverage" NAME="moudle (1) Coverage Results" MODIFIED="1529896816170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_csh/baidu" />
+    <SUITE FILE_PATH="coverage/GitHub$log__2_.coverage" NAME="log (2) Coverage Results" MODIFIED="1531970110470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/GitHub$readpath.coverage" NAME="readpath Coverage Results" MODIFIED="1531383392314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/GitHub$test.coverage" NAME="test Coverage Results" MODIFIED="1531882502479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/GitHub$globalparam__1_.coverage" NAME="globalparam (1) Coverage Results" MODIFIED="1531987333410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/config" />
+    <SUITE FILE_PATH="coverage/GitHub$baidu_search.coverage" NAME="baidu_search Coverage Results" MODIFIED="1529570371143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_1/public" />
+    <SUITE FILE_PATH="coverage/GitHub$run.coverage" NAME="run Coverage Results" MODIFIED="1541131271301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_test_1_Test.coverage" NAME="Unittests for test_1.Test Coverage Results" MODIFIED="1530599039318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_18_7_3/baidu" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_in_test_o1_py.coverage" NAME="Unittests in test_o1.py Coverage Results" MODIFIED="1531364439588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_selenium59_BolgHome_test_01.coverage" NAME="Unittests for selenium59.BolgHome.test_01 Coverage Results" MODIFIED="1530603040122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/selenium" />
+    <SUITE FILE_PATH="coverage/GitHub$baidu.coverage" NAME="baidu Coverage Results" MODIFIED="1529634314312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_test_11_Age.coverage" NAME="Unittests for test_11.Age Coverage Results" MODIFIED="1532330541708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/GitHub$a1_loginPage__1_.coverage" NAME="a1_loginPage (1) Coverage Results" MODIFIED="1533546677311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/selenium自动化框架/selenium-python-master/test_case/page_obj" />
+    <SUITE FILE_PATH="coverage/GitHub$test_a.coverage" NAME="test+a Coverage Results" MODIFIED="1531292944882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_test_base_page_Test_Page_test_01.coverage" NAME="Unittests for test_base_page.Test_Page.test_01 Coverage Results" MODIFIED="1531814165096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_selenium59_Test_test02.coverage" NAME="Unittests for selenium59.Test.test02 Coverage Results" MODIFIED="1530604325178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/selenium" />
+    <SUITE FILE_PATH="coverage/GitHub$aa.coverage" NAME="aa Coverage Results" MODIFIED="1531104545038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_test3_Test.coverage" NAME="Unittests for test3.Test Coverage Results" MODIFIED="1530610360530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/2018_6/case/blog" />
+    <SUITE FILE_PATH="coverage/GitHub$browser_engine.coverage" NAME="browser_engine Coverage Results" MODIFIED="1529915700831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/public" />
+    <SUITE FILE_PATH="coverage/GitHub$module.coverage" NAME="module Coverage Results" MODIFIED="1530842710543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_in_test_b_py.coverage" NAME="Unittests in test_b.py Coverage Results" MODIFIED="1529915089804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/public" />
+    <SUITE FILE_PATH="coverage/GitHub$test_1uesrinfo.coverage" NAME="test_1uesrinfo Coverage Results" MODIFIED="1530699776290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_in_test_aa_py.coverage" NAME="Unittests in test_aa.py Coverage Results" MODIFIED="1530783935349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/GitHub$test_11.coverage" NAME="test_11 Coverage Results" MODIFIED="1532507314414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/GitHub$data.coverage" NAME="data Coverage Results" MODIFIED="1531204623302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1531271844807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/GitHub$test_1.coverage" NAME="test_1 Coverage Results" MODIFIED="1529564478390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/GitHub$04__20180203212655.coverage" NAME="04-给程序传递参数_20180203212655 Coverage Results" MODIFIED="1539586654340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/testscript/python" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_test_3_Test_test_h.coverage" NAME="Unittests for test_3.Test.test_h Coverage Results" MODIFIED="1530599140751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_18_7_3/blog" />
+    <SUITE FILE_PATH="coverage/GitHub$test_bb.coverage" NAME="test_bb Coverage Results" MODIFIED="1531202211048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/GitHub$run_ai_test.coverage" NAME="run_ai_test Coverage Results" MODIFIED="1534744883757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GitHub$test_g.coverage" NAME="test_g Coverage Results" MODIFIED="1530598067203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_test_baidu_TestBrowser.coverage" NAME="Unittests for test_baidu.TestBrowser Coverage Results" MODIFIED="1529909659989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_test_1_Test_test_a.coverage" NAME="Unittests for test_1.Test.test_a Coverage Results" MODIFIED="1530598893779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_18_7_3/baidu" />
+    <SUITE FILE_PATH="coverage/GitHub$tst.coverage" NAME="tst Coverage Results" MODIFIED="1530671911279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/2018_6" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_selenium51_Test.coverage" NAME="Unittests for selenium51.Test Coverage Results" MODIFIED="1530505586723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/selenium" />
+    <SUITE FILE_PATH="coverage/GitHub$my_car.coverage" NAME="my_car Coverage Results" MODIFIED="1529912546246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_in_selenium56_py.coverage" NAME="Unittests in selenium56.py Coverage Results" MODIFIED="1530609070440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/selenium" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_open_down_Open_Down.coverage" NAME="Unittests for open_down.Open_Down Coverage Results" MODIFIED="1529562049335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/browsers" />
+    <SUITE FILE_PATH="coverage/GitHub$selenium58.coverage" NAME="selenium58 Coverage Results" MODIFIED="1530519724684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/selenium" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_in_test_base_page_py.coverage" NAME="Unittests in test_base_page.py Coverage Results" MODIFIED="1531810969660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/GitHub$log__1_.coverage" NAME="log (1) Coverage Results" MODIFIED="1531883122539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/selenium自动化框架/selenium-python-master/public" />
+    <SUITE FILE_PATH="coverage/GitHub$all_tests.coverage" NAME="all_tests Coverage Results" MODIFIED="1530672517947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/GitHub$HTMLTestRunner.coverage" NAME="HTMLTestRunner Coverage Results" MODIFIED="1530671452773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/Program Files (x86)/python/Lib" />
+    <SUITE FILE_PATH="coverage/GitHub$test_moudle.coverage" NAME="test_moudle Coverage Results" MODIFIED="1529662174596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_csh" />
+    <SUITE FILE_PATH="coverage/GitHub$a2_forget_pwd_sta.coverage" NAME="a2_forget_pwd_sta Coverage Results" MODIFIED="1532501029081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/selenium自动化框架/migu-web-1-master/migu-web-1-master/test_case" />
+    <SUITE FILE_PATH="coverage/GitHub$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1529657338519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_in_selenium51_py.coverage" NAME="Unittests in selenium51.py Coverage Results" MODIFIED="1530496644464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/selenium" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_selenium56_Test.coverage" NAME="Unittests for selenium56.Test Coverage Results" MODIFIED="1530609287633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/selenium" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_in_test_g_py.coverage" NAME="Unittests in test_g.py Coverage Results" MODIFIED="1529999321664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_baidu_BaiduSearsh_test_search.coverage" NAME="Unittests for baidu.BaiduSearsh.test_search Coverage Results" MODIFIED="1530857473905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_test_3_Test_test_f.coverage" NAME="Unittests for test_3.Test.test_f Coverage Results" MODIFIED="1530599085183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_18_7_3/blog" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_selenium59_Test.coverage" NAME="Unittests for selenium59.Test Coverage Results" MODIFIED="1530605217892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/selenium" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_baidu_BaiduSearsh_counttest.coverage" NAME="Unittests for baidu.BaiduSearsh.counttest Coverage Results" MODIFIED="1530857351770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_baidu_BaiduSearsh.coverage" NAME="Unittests for baidu.BaiduSearsh Coverage Results" MODIFIED="1530869582179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/GitHub$log1.coverage" NAME="log1 Coverage Results" MODIFIED="1531901739862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_test_b_Test_f_test_a.coverage" NAME="Unittests for test_b.Test_f.test_a Coverage Results" MODIFIED="1529915058505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/public" />
+    <SUITE FILE_PATH="coverage/GitHub$globalparam.coverage" NAME="globalparam Coverage Results" MODIFIED="1533540122318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/config" />
+    <SUITE FILE_PATH="coverage/GitHub$selenium59.coverage" NAME="selenium59 Coverage Results" MODIFIED="1530524286964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/selenium" />
+    <SUITE FILE_PATH="coverage/GitHub$HTMLTestRunner__1_.coverage" NAME="HTMLTestRunner (1) Coverage Results" MODIFIED="1530671823659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_selenium59_Test_test01.coverage" NAME="Unittests for selenium59.Test.test01 Coverage Results" MODIFIED="1530605077568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/selenium" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_in_aq_login_sta_py.coverage" NAME="Unittests in aq_login_sta.py Coverage Results" MODIFIED="1533694291570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_in_run_all_case_py.coverage" NAME="Unittests in run_all_case.py Coverage Results" MODIFIED="1532081032561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_in_run_py.coverage" NAME="Unittests in run.py Coverage Results" MODIFIED="1533523158426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_test_3_Test.coverage" NAME="Unittests for test_3.Test Coverage Results" MODIFIED="1530599093540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_18_7_3/blog" />
+    <SUITE FILE_PATH="coverage/GitHub$globalparam__2_.coverage" NAME="globalparam (2) Coverage Results" MODIFIED="1531987359183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/config/ff" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_selenium56_Test_test02.coverage" NAME="Unittests for selenium56.Test.test02 Coverage Results" MODIFIED="1530608328700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/selenium" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_test_11_Test_test_04.coverage" NAME="Unittests for test_11.Test.test_04 Coverage Results" MODIFIED="1532398660834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/GitHub$basepage.coverage" NAME="basepage Coverage Results" MODIFIED="1529570069730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_1/public" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_run_all_case_Test_case_test_4.coverage" NAME="Unittests for run_all_case.Test_case.test_4 Coverage Results" MODIFIED="1532081102770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GitHub$test_class.coverage" NAME="test_class Coverage Results" MODIFIED="1538982266145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/testscript/python" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_test_11_Test_test_02.coverage" NAME="Unittests for test_11.Test.test_02 Coverage Results" MODIFIED="1532398501327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/GitHub$a1_pk_loginPage.coverage" NAME="a1_pk_loginPage Coverage Results" MODIFIED="1534147084350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/page_obj" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_test_4_Test_D.coverage" NAME="Unittests for test_4.Test_D Coverage Results" MODIFIED="1530599245178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_18_7_3/blog" />
+    <SUITE FILE_PATH="coverage/GitHub$test_baidu.coverage" NAME="test_baidu Coverage Results" MODIFIED="1529916284327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/GitHub$readconfig__1_.coverage" NAME="readconfig (1) Coverage Results" MODIFIED="1531987693955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/GitHub$a1_pk_test_loginPage.coverage" NAME="a1_pk_test_loginPage Coverage Results" MODIFIED="1533723207013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/page_test" />
+    <SUITE FILE_PATH="coverage/GitHub$04_.coverage" NAME="04-给程序传递参数 Coverage Results" MODIFIED="1539586624392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/testscript/python" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_in_test_test_py.coverage" NAME="Unittests in test_test.py Coverage Results" MODIFIED="1533720640580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data/test_data" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_test_2_Test_B_test_d.coverage" NAME="Unittests for test_2.Test_B.test_d Coverage Results" MODIFIED="1530599412705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_18_7_3/baidu" />
+    <SUITE FILE_PATH="coverage/GitHub$selenium58_2.coverage" NAME="selenium58_2 Coverage Results" MODIFIED="1530590988396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/selenium" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_login_logout_Bolg.coverage" NAME="Unittests for login_logout.Bolg Coverage Results" MODIFIED="1529561040589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_run_all_case_Test_case_test_03.coverage" NAME="Unittests for run_all_case.Test_case.test_03 Coverage Results" MODIFIED="1532053779213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GitHub$datainfo__1_.coverage" NAME="datainfo (1) Coverage Results" MODIFIED="1533283940770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/selenium自动化框架/migu-web-1-master/migu-web-1-master/public" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_for_test_2_Test.coverage" NAME="Unittests for test_2.Test Coverage Results" MODIFIED="1530599009290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_18_7_3/baidu" />
+    <SUITE FILE_PATH="coverage/GitHub$selenium43.coverage" NAME="selenium43 Coverage Results" MODIFIED="1529995746736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/selenium" />
+    <SUITE FILE_PATH="coverage/GitHub$Unittests_in_test1_py.coverage" NAME="Unittests in test1.py Coverage Results" MODIFIED="1530610269130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/2018_6/case/baidu" />
+    <SUITE FILE_PATH="coverage/GitHub$te.coverage" NAME="te Coverage Results" MODIFIED="1531359787273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="run.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/run.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="e#33#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+              <folding>
+                <element signature="e#15#72#0" expanded="true" />
+                <element signature="e#5699#5799#1" />
+                <element signature="e#24753#24874#1" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>self.url</find>
+      <find>5</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/public/readpath.py" />
+        <option value="$PROJECT_DIR$/data/browser_url.ini" />
+        <option value="$PROJECT_DIR$/up_files/test.py" />
+        <option value="$PROJECT_DIR$/public/test.py" />
+        <option value="$PROJECT_DIR$/public/log1.py" />
+        <option value="$PROJECT_DIR$/public/test_base_page.py" />
+        <option value="E:/selenium自动化框架/selenium-python-master/public/readconfig.py" />
+        <option value="E:/selenium自动化框架/selenium-python-master/config/globalparam.py" />
+        <option value="$PROJECT_DIR$/data/config.ini" />
+        <option value="E:/selenium自动化框架/selenium-python-master/public/log.py" />
+        <option value="E:/selenium自动化框架/selenium-python-master/public/browser.py" />
+        <option value="$PROJECT_DIR$/public/browser.py" />
+        <option value="$PROJECT_DIR$/run_all_case.py" />
+        <option value="$PROJECT_DIR$/public/test_11.py" />
+        <option value="$PROJECT_DIR$/report/logs/2018073017.log" />
+        <option value="$PROJECT_DIR$/data/test_data/test_case.ipynb" />
+        <option value="E:/selenium自动化框架/migu-web-1-master/migu-web-1-master/data/testdata/data_read.py" />
+        <option value="E:/selenium自动化框架/migu-web-1-master/migu-web-1-master/public/datainfo.py" />
+        <option value="$PROJECT_DIR$/report/test_report/run_ai_test.py" />
+        <option value="$PROJECT_DIR$/public/my_unit.py" />
+        <option value="$PROJECT_DIR$/up_files/run_ai_test.py" />
+        <option value="E:/selenium自动化框架/migu-web-1-master/migu-web-1-master/run_ai_test.py" />
+        <option value="E:/selenium自动化框架/migu-web-1-master/migu-web-1-master/public/function.py" />
+        <option value="E:/selenium自动化框架/migu-web-1-master/migu-web-1-master/public/sendmail.py" />
+        <option value="E:/selenium自动化框架/migu-web-1-master/migu-web-1-master/public/base.py" />
+        <option value="E:/selenium自动化框架/selenium-python-master/public/base.py" />
+        <option value="$PROJECT_DIR$/public/readconfig.py" />
+        <option value="$PROJECT_DIR$/config/globalparam.py" />
+        <option value="E:/selenium自动化框架/selenium-python-master/public/function.py" />
+        <option value="E:/selenium自动化框架/selenium-python-master/test_case/page_obj/a1_loginPage.py" />
+        <option value="$PROJECT_DIR$/test_case/aq_login_sta.py" />
+        <option value="$PROJECT_DIR$/test_case/page_obj/pk_loginPage.py" />
+        <option value="$PROJECT_DIR$/test_case/page_obj/a1_loginPage.py" />
+        <option value="$PROJECT_DIR$/data/test_data/data_read.py" />
+        <option value="$PROJECT_DIR$/data/test_data/test_test.py" />
+        <option value="$PROJECT_DIR$/public/log.py" />
+        <option value="$PROJECT_DIR$/public/function.py" />
+        <option value="$PROJECT_DIR$/config/config.ini" />
+        <option value="$PROJECT_DIR$/test_case/page_obj/a1_pk_loginPage.py" />
+        <option value="$PROJECT_DIR$/test_case/page_test/a1_pk_test_loginPage.py" />
+        <option value="$PROJECT_DIR$/run_ai_test.py" />
+        <option value="E:/selenium自动化框架/selenium-python-master/test_case/page_obj/a2_forget_password.py" />
+        <option value="E:/selenium自动化框架/selenium-python-master/test_case/a2_forget_pwd_sta.py" />
+        <option value="$PROJECT_DIR$/public/datainfo.py" />
+        <option value="E:/testscript/python/test_class.py" />
+        <option value="E:/python_django/mysite/manage.py" />
+        <option value="$PROJECT_DIR$/public/base.py" />
+        <option value="$PROJECT_DIR$/public/exceptionscr.py" />
+        <option value="$PROJECT_DIR$/public/myunit.py" />
+        <option value="$PROJECT_DIR$/tes.py" />
+        <option value="$PROJECT_DIR$/run.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="453" />
+    <option name="width" value="699" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GitHub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GitHub" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GitHub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GitHub" type="462c0819:PsiDirectoryNode" />
+              <item name="case" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GitHub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GitHub" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GitHub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GitHub" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="test_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GitHub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GitHub" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GitHub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GitHub" type="462c0819:PsiDirectoryNode" />
+              <item name="test_case" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GitHub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GitHub" type="462c0819:PsiDirectoryNode" />
+              <item name="test_case" type="462c0819:PsiDirectoryNode" />
+              <item name="page_obj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GitHub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GitHub" type="462c0819:PsiDirectoryNode" />
+              <item name="test_case" type="462c0819:PsiDirectoryNode" />
+              <item name="test_baidu" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="E:/testscript/python/04-给程序传递参数_20180203212655.py" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\GitHub\data\test_data" />
+      <recent name="E:\GitHub\report" />
+      <recent name="E:\GitHub\config\ff" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GitHub" />
+      <recent name="E:\GitHub\test\selenium" />
+      <recent name="E:\Program Files (x86)\python\GitHub\test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.run">
+    <configuration name="datainfo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GitHub" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/public" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/public/datainfo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="exceptionscr" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GitHub" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/public" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/public/exceptionscr.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GitHub" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python_django/mysite" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../python_django/mysite/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GitHub" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="tes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GitHub" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.tes" />
+      <item itemvalue="Python.manage" />
+      <item itemvalue="Python.run" />
+      <item itemvalue="Python.exceptionscr" />
+      <item itemvalue="Python.datainfo" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run" />
+        <item itemvalue="Python.tes" />
+        <item itemvalue="Python.datainfo" />
+        <item itemvalue="Python.exceptionscr" />
+        <item itemvalue="Python.manage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="07aefc03-a2b2-4cc1-a71e-d8ef91912555" name="Default" comment="" />
+      <created>1529549028725</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1529549028725</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_a1_pk_test_loginPage_py - 2018.08.13 at 14h 12m 37s.xml">
+      <configuration name="Unittests in a1_pk_test_loginPage.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_a1_pk_test_loginPage_py - 2018.08.13 at 14h 14m 26s.xml">
+      <configuration name="Unittests in a1_pk_test_loginPage.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_a1_pk_test_loginPage_py - 2018.08.13 at 14h 32m 23s.xml">
+      <configuration name="Unittests in a1_pk_test_loginPage.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_a1_pk_test_loginPage_py - 2018.08.13 at 14h 32m 47s.xml">
+      <configuration name="Unittests in a1_pk_test_loginPage.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_a1_pk_test_loginPage_py - 2018.08.13 at 14h 33m 32s.xml">
+      <configuration name="Unittests in a1_pk_test_loginPage.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_a1_pk_test_loginPage_py - 2018.08.13 at 14h 33m 40s.xml">
+      <configuration name="Unittests in a1_pk_test_loginPage.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_a1_pk_test_loginPage_py - 2018.08.13 at 14h 33m 56s.xml">
+      <configuration name="Unittests in a1_pk_test_loginPage.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_a1_pk_test_loginPage_py - 2018.08.13 at 14h 35m 20s.xml">
+      <configuration name="Unittests in a1_pk_test_loginPage.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_a1_pk_test_loginPage_py - 2018.08.13 at 14h 35m 45s.xml">
+      <configuration name="Unittests in a1_pk_test_loginPage.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_a1_pk_test_loginPage_py - 2018.08.13 at 14h 37m 46s.xml">
+      <configuration name="Unittests in a1_pk_test_loginPage.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4977307" weight="0.32838285" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.5060514" side_tool="true" weight="0.20957096" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32838285" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49394855" weight="0.3580858" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="right" content_ui="combo" id="Project" order="6" visible="true" weight="0.1580938" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="SciView" order="5" weight="0.32980332" />
+      <window_info id="Structure" order="0" side_tool="true" weight="0.24962178" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3960396" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32838285" />
+      <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.32838285" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32343236" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.32838285" />
+      <window_info id="Structure" order="0" side_tool="true" weight="0.24962178" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4977307" weight="0.32838285" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49394855" weight="0.43729374" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32838285" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32343236" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="6" visible="true" weight="0.17397882" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3960396" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.5060514" side_tool="true" weight="0.20957096" />
+      <window_info anchor="right" id="SciView" order="5" weight="0.32980332" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32838285" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://E:/selenium自动化框架/selenium-python-master/public/browser.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://E:/selenium自动化框架/migu-web-1-master/migu-web-1-master/public/base.py</url>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://E:/selenium自动化框架/migu-web-1-master/migu-web-1-master/public/base.py</url>
+          <line>218</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://E:/selenium自动化框架/migu-web-1-master/migu-web-1-master/public/base.py</url>
+          <line>342</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/public/base.py</url>
+          <line>310</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://E:/selenium自动化框架/migu-web-1-master/migu-web-1-master/public/base.py</url>
+          <line>506</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/public/base.py</url>
+          <line>672</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://E:/selenium自动化框架/selenium-python-master/test_case/a1_login_sta.py</url>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://E:/selenium自动化框架/selenium-python-master/test_case/page_obj/a1_loginPage.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/public/base.py</url>
+          <line>495</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="145" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/report/test_report/2018-08-13 09-23-33result.html" />
+    <entry file="file://$PROJECT_DIR$/report/image/baidu_home_0.png" />
+    <entry file="file://$PROJECT_DIR$/report/expection_image/assert(2018_08_13_09_23_59).png" />
+    <entry file="file://$PROJECT_DIR$/report/expection_image/assert(2018_08_13_09_23_48).png" />
+    <entry file="file://$PROJECT_DIR$/report/expection_image/2018_08_08_18_34_25.png" />
+    <entry file="file://$PROJECT_DIR$/report/expection_image/2018_08_13_09_46_09.png" />
+    <entry file="file://$PROJECT_DIR$/report/expection_image/2018_08_13_09_46_20.png" />
+    <entry file="file://$PROJECT_DIR$/report/expection_image/assert(2018_08_13_09_46_20).png" />
+    <entry file="file://$PROJECT_DIR$/report/expection_image/assert(2018_08_13_09_49_06).png" />
+    <entry file="file://$PROJECT_DIR$/report/expection_image/assert(2018_08_13_09_46_09).png" />
+    <entry file="file://$PROJECT_DIR$/report/expection_image/assert(2018_08_13_09_51_38).png" />
+    <entry file="file://$PROJECT_DIR$/report/expection_image/2018_08_13_11_08_36.png" />
+    <entry file="file://$PROJECT_DIR$/report/expection_image/assert(2018_08_13_11_08_25).png" />
+    <entry file="file://$PROJECT_DIR$/report/logs/2018081311.log" />
+    <entry file="file://$PROJECT_DIR$/report/image/pk_a1_1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_02.py" />
+    <entry file="file://$PROJECT_DIR$/case/test_o1.py" />
+    <entry file="file://$PROJECT_DIR$/case/case.py" />
+    <entry file="file://$PROJECT_DIR$/report/test_report/2018-08-13 15-07-51result.html" />
+    <entry file="file://$PROJECT_DIR$/report/image/pk_a1_2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/logs/2018081315.log" />
+    <entry file="file://$PROJECT_DIR$/report/image/pk_a1_3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/image/pk_a1_4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://E:/selenium自动化框架/selenium-python-master/test_case/a1_login_sta.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/page_test/a1_pk_test_loginPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/selenium自动化框架/selenium-python-master/test_case/page_obj/login_enter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/test_report/2018-08-20 14-01-24result.html" />
+    <entry file="file://E:/selenium自动化框架/selenium-python-master/test_case/page_obj/a2_forget_password.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/selenium自动化框架/selenium-python-master/test_case/a2_forget_pwd_sta.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/test_data/data_read.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/globalparam.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/testscript/python/test_class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/testscript/python/04-给程序传递参数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/python_django/mysite/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/testscript/python/04-给程序传递参数_20180203212655.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.HTML">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_ai_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="17" column="68" lean-forward="true" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/browser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/page_obj/a1_pk_loginPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/myunit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/readconfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/datainfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/exceptionscr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding>
+            <element signature="e#15#72#0" expanded="true" />
+            <element signature="e#5699#5799#1" />
+            <element signature="e#24753#24874#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="e#33#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
