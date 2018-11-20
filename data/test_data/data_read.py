@@ -4,7 +4,7 @@ from public.datainfo import ExcelUtil
 class Test_Data():
     def a1_data(self, sheet):
        """Get the excel data"""
-       filepath = globalparam.data_path + '\\' + 'datas.xlsx'
+       filepath = globalparam.data_path + '\\' + ''
        sheetname = sheet
        data1 = ExcelUtil(filepath, sheetname).dict_data()
        return data1

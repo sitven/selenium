@@ -1,8 +1,0 @@
-2018-08-20 14:01:24,472 - root - INFO - ############################### START ###############################
-2018-08-20 14:01:30,389 - root - INFO - Success set browser window maximized, Spend 1.29454seconds
-2018-08-20 14:01:30,393 - root - INFO - Success set wait all element display in 4 seconds.
-2018-08-20 14:01:31,039 - root - INFO - Success navigated to https://duct.pangku.com/admin/auth/login, Spend 0.64427 seconds
-2018-08-20 14:01:33,801 - root - INFO - Fail unable to type element: <xpath->//*[@id='cellphone']> content: ,Spend 2.76161 seconds-- from: E:\GitHub\public -><test_case.page_obj.a1_pk_loginPage.login object at 0x0415A810>
-2018-08-20 14:01:33,818 - root - INFO - Fail unable to load https://duct.pangku.com/admin/auth/login, Spend 0.00299 seconds
-2018-08-20 14:01:33,825 - root - INFO - Fail unable to load https://duct.pangku.com/admin/auth/login, Spend 0.00299 seconds
-2018-08-20 14:01:33,835 - root - INFO - Fail unable to load https://duct.pangku.com/admin/auth/login, Spend 0.00399 seconds

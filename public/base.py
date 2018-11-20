@@ -10,7 +10,7 @@ import time
 import os
 
 
-success = "Success "
+success = "Success"
 fail = "Fail "
 logger = Logger()
 
@@ -91,14 +91,6 @@ class Page():
         self.my_print("{0}exit the browser, Spend {1} seconds"
                       "".format(success, "%.5f"%(time.time()-start_time)))
 
-    # 获取csv配置文件的数据
-    def get_csv_value(self, path_csv='\\data\\search.csv'):
-        prj_path = os.path.dirname(os.path.abspath('.'))
-        csv_path = os.path.join(prj_path+path_csv)  # 获取ini文件的绝对路径
-        with open(csv_path, 'r') as name:
-            self.lines = name.readlines()
-            # 以行读取整个文件
-            return self.lines
 
     # 等待元素出现与元素消失定位方式为：id、name、class、link_text、xpath或css)
     def element_wait_display(self, css, secs=3):
@@ -107,9 +99,10 @@ class Page():
         by_element = ['xpath', 'id', 'link text', 'css selector', 'name', 'class name']
         try:
             if locate_mode in by_element:
-                WebDriverWait(self.driver,secs,0.5).until(EC.presence_of_element_located(css),msg)
+                WebDriverWait(self.driver,secs,0.5).until(EC.presence_of_element_located(css), msg)
             else:
-                raise NameError("Please in element_wait_display enter the correct targeting elements,'id','name','class','link_text','xpath','css.'")
+                raise NameError("Please in element_wait_display enter the correct targeting "
+                                "elements,'id','name','class','link_text','xpath','css.'")
         except NameError as name_error:
             print('...%s'%name_error)
 
@@ -165,8 +158,8 @@ class Page():
                           "-- from: {4}".format(success,css1,text, time.time()-start_time,base_path))
         except Exception:
             self.my_print("{0}unable to type element: <{1}> content: {2},Spend {3} "
-                          "seconds-- from: {4} ->{5}".format(fail, css1, text, "%.5f"%(time.time()-start_time),
-                                                             base_path, self))
+                          "seconds-- from: {4} ->{5}".format(fail, css1, text, "%.5f"%
+                                                             (time.time()-start_time), base_path, self))
             self.fail_img()
             raise
 
@@ -590,11 +583,11 @@ class Page():
         start_time = time.time()
         locator1 = locator[0] + "->" + locator[1]
         try:
-            result = WebDriverWait(self.driver,timeout,0.5).until\
+            result = WebDriverWait(self.driver, timeout, 0.5).until\
                 (EC.text_to_be_present_in_element(locator, text))
         except TimeoutException:
             self.my_print("{0}element not positioned: <{1}> , Spend {2} seconds ->{3}"
-                          "".format( fail, locator1, "%.5f"%(time.time()-start_time), self))
+                          "".format(fail, locator1, "%.5f"%(time.time()-start_time), self))
             self.fail_img()
             return False
         else:
@@ -650,7 +643,7 @@ class Page():
             self.assert_img()
             raise
 
-    # 断言文本不等
+    # 断言文本
     def assert_notequal(self, loc, text):
         """
         say with certainty

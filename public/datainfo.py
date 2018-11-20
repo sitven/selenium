@@ -2,7 +2,7 @@
 import xlrd
 
 class ExcelUtil():
-    """获取xls或者xlsx文件里的数据并返回字典组成的列表"""
+    """获取csv文件里的数据并返回字典组成的列表"""
     def __init__(self, excelPath, sheetName):
         self.data = xlrd.open_workbook(excelPath)                    # 打开配置文件
         self.table = self.data.sheet_by_name(sheetName)              # 获取配置数据表名
@@ -26,7 +26,7 @@ class ExcelUtil():
             return userinfo
 
 if __name__ == '__main__':
-    excelPath = "E:\\GitHub\\data\\test_data\\datas.xlsx"
+    excelPath = ""
     sheetName = 'a1_sta'
     data = ExcelUtil(excelPath, sheetName)
     print(data.dict_data())
