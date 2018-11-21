@@ -9,10 +9,13 @@ class My_Test(unittest.TestCase, Page):
     @classmethod
     def setUpClass(self):
         self.logger = Logger()
+        print('A')
         self.logger.info('############################### START ###############################')
+        print('B')
         self.driver = select_browser(globalparam.browser)
+        print('C')
         Page(self.driver).max_window()
-        Page(self.driver).wait(secs=4)
+        Page(self.driver).wait(secs=2)
 
     @classmethod
     def tearDownClass(self):

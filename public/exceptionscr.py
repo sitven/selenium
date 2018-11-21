@@ -12,7 +12,7 @@ class Screen(object):
                 import time
                 nowTime = time.strftime("%Y_%m_%d_%H_%M_%S")
                 file_name = '%s.jpg' % nowTime
-                file_path = globalparam.exception_path + "\\" + file_name
+                file_path = globalparam.exception_image_path + "\\" + file_name
                 self.driver.get_screenshot_as_file(file_path)
                 raise
         return inner

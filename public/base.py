@@ -9,11 +9,9 @@ from config import globalparam
 import time
 import os
 
-
 success = "Success"
 fail = "Fail "
 logger = Logger()
-
 
 class Page():
     # 页面基础类，用于所有类的继承
@@ -37,7 +35,7 @@ class Page():
         start_time = time.time()
         nowTime = time.strftime("%Y_%m_%d_%H_%M_%S")
         file_name = 'open->%s.jpg' % nowTime
-        file_path = globalparam.exception_path + "\\" + file_name
+        file_path = globalparam.exception_image_path + "\\" + file_name
         try:
             self._open_url(url)
             self.my_print("{0}navigated to {1}, Spend {2} seconds"
@@ -681,6 +679,5 @@ class Page():
 
 
 if __name__ == "__main__":
-    base_path = print(os.path.dirname(os.path.abspath(__file__)))
-
+    print('succes')
 

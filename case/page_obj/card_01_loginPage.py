@@ -4,7 +4,7 @@
 from public.base import Page
 
 class Login(Page):
-    ''' 测试登录 '''
+    ''' 账户登录测试 '''
 
     # 子域名
     url = '/dist/index.html'
@@ -31,12 +31,18 @@ class Login(Page):
         self.get_text(self.login_hint_loc)
 
     # 登录流程
-    def login_process(self,username, passwd, verify):
+    def login_process(self, username, passwd, verify):
+        print(1)
         self.open_url(self.url)
+        print(2)
         self.login_username(username)
+        print(3)
         self.login_passwd(passwd)
+        print(4)
         self.login_verify(verify)
+        print(5)
         self.login_button()
+        print(6)
 
     # 登录结果
     login_hint_loc = ('xpath', "//div[@class='tips']")                          # 失败提示
@@ -47,9 +53,8 @@ class Login(Page):
         return self.get_text(self.login_hint_loc)
 
     # 获取成功页面微信查看按钮文案
-    def get_succee_text(self):
+    def get_succees_text(self):
         return self.get_text(self.login_succee_loc)
-
 
 
 
