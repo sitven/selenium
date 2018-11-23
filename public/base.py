@@ -4,14 +4,14 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import TimeoutException
-from public.log import Logger
+from public.log import My_Log
 from config import globalparam
 import time
 import os
 
 success = "Success"
 fail = "Fail "
-logger = Logger()
+logger = My_Log()
 
 class Page():
     # 页面基础类，用于所有类的继承
@@ -138,6 +138,10 @@ class Page():
     # 打印info日志
     def my_print(self, message):
         logger.info(message)
+
+    def my_error(self, message):
+        logger.error(message)
+
 
     # 操作输入框
     def input_box(self,css,text):

@@ -1,11 +1,11 @@
 # coding=utf-8
 from public.base import Page
-from config import globalparam
+from config.globalparam import image_path
 
 
 def insert_img(driver, file_name):
     """Screenshot function"""
-    file_path = globalparam.img_path + '\\' + file_name
+    file_path = image_path + '\\' + file_name
     Page(driver).take_screenshot(file_path)
 
 if __name__ =="__main__":

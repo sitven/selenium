@@ -8,3 +8,74 @@
 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
 JavaScript warning: https://www.weightwatchers.com/us/sites/default/files/advagg_js/js__yQaFBE43q6-uM9Luoqx_jA4Mc60AOU29SVbs6UuV4K0__c7lBtocpvCU4lJxZuH-J7ULkVJKhy0UoSVK0dBLfyAA__toGOnpD_TQBDYv1F-nd2S6GdlEhH6oPvhNKWwEqK_JI.js, line 4: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 1542852521003	geckodriver	INFO	Listening on 127.0.0.1:24823
+1542961170377	geckodriver	INFO	Listening on 127.0.0.1:2058
+1542961173434	mozprofile::profile	INFO	Using profile path C:\Users\Deng\AppData\Local\Temp\rust_mozprofile.nIGZorohxDne
+1542961173439	geckodriver::marionette	INFO	Starting browser E:\Program Files\Browser\Firefox\firefox.exe with args []
+1542961173446	geckodriver::marionette	INFO	Connecting to Marionette on localhost:2066
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1542961174345	Marionette	INFO	Listening on port 2066
+1542961174761	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+JavaScript error: resource://app/modules/URLBarZoom.jsm, line 24: TypeError: win is null
+to Marionette on localhost:2267
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1542961384369	Marionette	INFO	Listening on port 2267
+1542961384913	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+JavaScript error: resource://app/modules/URLBarZoom.jsm, line 24: TypeError: win is null
+1542961603798	geckodriver	INFO	Listening on 127.0.0.1:2340
+1542961606874	mozprofile::profile	INFO	Using profile path C:\Users\Deng\AppData\Local\Temp\rust_mozprofile.Rq84Y10tVHC9
+1542961606882	geckodriver::marionette	INFO	Starting browser E:\Program Files\Browser\Firefox\firefox.exe with args []
+1542961606888	geckodriver::marionette	INFO	Connecting to Marionette on localhost:2348
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1542961607973	Marionette	INFO	Listening on port 2348
+1542961608430	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0092,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0085,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+JavaScript error: resource://app/modules/URLBarZoom.jsm, line 24: TypeError: win is null
+1542961872802	geckodriver	INFO	Listening on 127.0.0.1:2476
+1542961875877	mozprofile::profile	INFO	Using profile path C:\Users\Deng\AppData\Local\Temp\rust_mozprofile.txW9OSavBoey
+1542961875883	geckodriver::marionette	INFO	Starting browser E:\Program Files\Browser\Firefox\firefox.exe with args []
+1542961875889	geckodriver::marionette	INFO	Connecting to Marionette on localhost:2484
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1542961876689	Marionette	INFO	Listening on port 2484
+1542961877070	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+[Child 2556] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+[Child 2556] WARNING: pip1542961995015	geckodriver	INFO	Listening on 127.0.0.1:2542
+1542961998069	mozprofile::profile	INFO	Using profile path C:\Users\Deng\AppData\Local\Temp\rust_mozprofile.UeVLfCILUpNb
+1542961998075	geckodriver::marionette	INFO	Starting browser E:\Program Files\Browser\Firefox\firefox.exe with args []
+1542961998081	geckodriver::marionette	INFO	Connecting to Marionette on localhost:2550
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1542961998896	Marionette	INFO	Listening on port 2550
+1542961999385	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+[Child 12440] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+[Child 12440] WARNING: pipe1542962155882	geckodriver	INFO	Listening on 127.0.0.1:2670
+1542962158949	mozprofile::profile	INFO	Using profile path C:\Users\Deng\AppData\Local\Temp\rust_mozprofile.BcBvZDte8b2M
+1542962158963	geckodriver::marionette	INFO	Starting browser E:\Program Files\Browser\Firefox\firefox.exe with args []
+1542962158969	geckodriver::marionette	INFO	Connecting to Marionette on localhost:2678
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1542962159834	Marionette	INFO	Listening on port 2678
+1542962160350	Marionette	WARN	TLS certificate errors will be ignored for this session

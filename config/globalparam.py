@@ -2,7 +2,7 @@
 from public.readconfig import ReadConfig
 import os
 
-project_path = os.path.split(os.getcwd())[0]
+project_path = os.path.split(os.path.split(os.path.realpath(__file__))[0])[0]
 '''Gets the project absolute path (获取项目绝对路径)'''
 # print(project_path)
 

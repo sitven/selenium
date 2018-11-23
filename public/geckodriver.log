@@ -1,0 +1,31 @@
+1542962132838	geckodriver	INFO	Listening on 127.0.0.1:2610
+1542962136514	geckodriver	INFO	Listening on 127.0.0.1:2616
+1542962139571	mozprofile::profile	INFO	Using profile path C:\Users\Deng\AppData\Local\Temp\rust_mozprofile.AnTMQdMHiy6y
+1542962139575	geckodriver::marionette	INFO	Starting browser E:\Program Files\Browser\Firefox\firefox.exe with args []
+1542962139581	geckodriver::marionette	INFO	Connecting to Marionette on localhost:2624
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1542962140402	Marionette	INFO	Listening on port 2624
+1542962140906	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+[Child 13108] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+[Child 13108] WARNING: p1542962146595	geckodriver::marionette	ERROR	Failed to kill browser process
+1542962254344	geckodriver	INFO	Listening on 127.0.0.1:2689
+1542962257400	mozprofile::profile	INFO	Using profile path C:\Users\Deng\AppData\Local\Temp\rust_mozprofile.X50iGT2hHmNQ
+1542962257407	geckodriver::marionette	INFO	Starting browser E:\Program Files\Browser\Firefox\firefox.exe with args []
+1542962257413	geckodriver::marionette	INFO	Connecting to Marionette on localhost:2697
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1542962258261	Marionette	INFO	Listening on port 2697
+1542962258658	Marionette	WARN	TLS certificate errors will be ignored for this session
+1542962549695	geckodriver	INFO	Listening on 127.0.0.1:2721
+1542962552759	mozprofile::profile	INFO	Using profile path C:\Users\Deng\AppData\Local\Temp\rust_mozprofile.UVEupSHtmJE7
+1542962552766	geckodriver::marionette	INFO	Starting browser E:\Program Files\Browser\Firefox\firefox.exe with args []
+1542962552772	geckodriver::marionette	INFO	Connecting to Marionette on localhost:2729
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1542962553640	Marionette	INFO	Listening on port 2729
+1542962554027	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1542962559787	Marionette	INFO	New connections will no longer be accepted
+[Child 10228] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+[Child 10228] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143

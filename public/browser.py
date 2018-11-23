@@ -1,7 +1,7 @@
 # coding=utf-8
 from selenium import webdriver
 
-def select_browser(browser='Ie'):
+def select_browser(browser='Chrome'):
     if browser == 'Chrome' or browser == "Ch":
         dr = webdriver.Chrome()
     if browser == 'Firefox' or browser == 'Ff':
