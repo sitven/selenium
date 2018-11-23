@@ -1,0 +1,10 @@
+1542852456234	geckodriver	INFO	Listening on 127.0.0.1:24675
+1542852459294	mozprofile::profile	INFO	Using profile path C:\Users\Deng\AppData\Local\Temp\rust_mozprofile.bunlKWXL3RHf
+1542852459300	geckodriver::marionette	INFO	Starting browser E:\Program Files\Browser\Firefox\firefox.exe with args []
+1542852459309	geckodriver::marionette	INFO	Connecting to Marionette on localhost:24683
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1542852460367	Marionette	INFO	Listening on port 24683
+1542852460939	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript warning: https://www.weightwatchers.com/us/sites/default/files/advagg_js/js__yQaFBE43q6-uM9Luoqx_jA4Mc60AOU29SVbs6UuV4K0__c7lBtocpvCU4lJxZuH-J7ULkVJKhy0UoSVK0dBLfyAA__toGOnpD_TQBDYv1F-nd2S6GdlEhH6oPvhNKWwEqK_JI.js, line 4: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1542852521003	geckodriver	INFO	Listening on 127.0.0.1:24823
