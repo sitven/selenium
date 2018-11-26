@@ -58,21 +58,3 @@ class Login(Page):
 
 
 
-
-
-#
-# if __name__ == "__main__":
-#     from selenium import webdriver
-#     import time
-#     driver = webdriver.Chrome()
-#     driver.get("https://pre-pcauto.pangku.com/dist/index.html")
-#     driver.find_element_by_xpath("//input[@autofocus= 'autofocus']").send_keys('admin')
-#     driver.find_element_by_xpath("//input[@type='password']").send_keys('admin2018')
-#     driver.find_element_by_xpath("//input[@class='small']").send_keys('dddfff')
-#     time.sleep(5)
-#     driver.find_element_by_xpath("//button[@class='uc_submit_ok']").click()
-#     time.sleep(2)
-#     text = driver.find_element_by_xpath("//div[@class='tips']").text
-#     print(text)
-#     print(driver.title)
-#     driver.quit()

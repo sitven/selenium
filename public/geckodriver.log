@@ -29,3 +29,28 @@ JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/stat
 1542962559787	Marionette	INFO	New connections will no longer be accepted
 [Child 10228] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
 [Child 10228] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+1543201075792	geckodriver	INFO	Listening on 127.0.0.1:23312
+1543201078901	mozprofile::profile	INFO	Using profile path C:\Users\Deng\AppData\Local\Temp\rust_mozprofile.L42P2wHwVPbp
+1543201078906	geckodriver::marionette	INFO	Starting browser E:\Program Files\Browser\Firefox\firefox.exe with args []
+1543201078913	geckodriver::marionette	INFO	Connecting to Marionette on localhost:23320
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1543201079840	Marionette	INFO	Listening on port 23320
+1543201080380	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1543201086025	Marionette	INFO	New connections will no longer be accepted
+[Child 11496] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+[Child 11496] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+1543202183405	geckodriver	INFO	Listening on 127.0.0.1:23518
+1543203462472	geckodriver	INFO	Listening on 127.0.0.1:23599
+1543203465548	mozprofile::profile	INFO	Using profile path C:\Users\Deng\AppData\Local\Temp\rust_mozprofile.IpmeLJy9AvNN
+1543203465555	geckodriver::marionette	INFO	Starting browser E:\Program Files\Browser\Firefox\firefox.exe with args []
+1543203465561	geckodriver::marionette	INFO	Connecting to Marionette on localhost:23607
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+1543203466433	Marionette	INFO	Listening on port 23607
+1543203466933	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1543203472465	Marionette	INFO	New connections will no longer be accepted
+[Child 2192] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+[Child 2192] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143

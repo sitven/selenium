@@ -2,26 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07aefc03-a2b2-4cc1-a71e-d8ef91912555" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/test_path/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/test_path/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/GitHub.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GitHub.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/page_obj/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/Page_obj/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/page_obj/card_01_loginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/Page_obj/card_01_loginPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/page_test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/test_case/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/page_test/test_card_01_logingPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/test_card_01_loging.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/python.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/Page_obj/card_01_loginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/Page_obj/card_01_loginPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/geckodriver.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/test_card_01_loging.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/test_card_01_loging.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/test_case/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/test_case_data/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/globalparam.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/globalparam.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/public/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test_data/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test_data/data_read.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/test_case_data/data_read.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/browser.py" beforeDir="false" afterPath="$PROJECT_DIR$/public/browser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/function.py" beforeDir="false" afterPath="$PROJECT_DIR$/public/function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/public/geckodriver.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/public/log.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logs.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/myunit.py" beforeDir="false" afterPath="$PROJECT_DIR$/public/myunit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_all.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/logs/2018_11_23_UI_automated_test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/page_obj/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/page_obj/a1_pk_loginPage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/page_test/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/page_test/a1_pk_test_loginPage.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,7 +35,7 @@
     <SUITE FILE_PATH="coverage/GitHub$Unittests_for_baidu_counttest_test_add.coverage" NAME="Unittests for baidu.counttest.test_add Coverage Results" MODIFIED="1530857560805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/GitHub$datainfo.coverage" NAME="datainfo Coverage Results" MODIFIED="1539912758818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/GitHub$uesr_info.coverage" NAME="uesr_info Coverage Results" MODIFIED="1530678246614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/selenium$Unittests_in_myunit_py.coverage" NAME="Unittests in myunit.py Coverage Results" MODIFIED="1542962549185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/selenium$Unittests_in_myunit_py.coverage" NAME="Unittests in myunit.py Coverage Results" MODIFIED="1543203835048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/GitHub$Unittests_in_test_02_py.coverage" NAME="Unittests in test_02.py Coverage Results" MODIFIED="1531377486022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/GitHub$Unittests_for_test4_Test.coverage" NAME="Unittests for test4.Test Coverage Results" MODIFIED="1530610400670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/2018_6/case/blog" />
     <SUITE FILE_PATH="coverage/GitHub$Unittests_for_test_2_Test_test_d.coverage" NAME="Unittests for test_2.Test.test_d Coverage Results" MODIFIED="1530598970325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_18_7_3/baidu" />
@@ -52,16 +50,17 @@
     <SUITE FILE_PATH="coverage/GitHub$a1_loginPage.coverage" NAME="a1_loginPage Coverage Results" MODIFIED="1533547089369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/page_obj" />
     <SUITE FILE_PATH="coverage/GitHub$test_HTMLTestRunner.coverage" NAME="test_HTMLTestRunner Coverage Results" MODIFIED="1530784597637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
     <SUITE FILE_PATH="coverage/GitHub$Unittests_for_loginout_Bolg.coverage" NAME="Unittests for loginout.Bolg Coverage Results" MODIFIED="1529552387118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/selenium$Unittests_for_test_card_01_loging_Login_Test_test_login_01_username_empty.coverage" NAME="Unittests for test_card_01_loging.Login_Test.test_login_01_username_empty Coverage Results" MODIFIED="1542962677600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/selenium$Unittests_for_test_card_01_loging_Login_Test_test_login_01_username_empty.coverage" NAME="Unittests for test_card_01_loging.Login_Test.test_login_01_username_empty Coverage Results" MODIFIED="1543204274518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/GitHub$Unittests_for_run_Test_test_02.coverage" NAME="Unittests for run.Test.test_02 Coverage Results" MODIFIED="1532944441926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/selenium$myunit.coverage" NAME="myunit Coverage Results" MODIFIED="1543198516066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/GitHub$Unittests_for_selenium51_Test_testbaidu.coverage" NAME="Unittests for selenium51.Test.testbaidu Coverage Results" MODIFIED="1530505535725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/selenium" />
     <SUITE FILE_PATH="coverage/GitHub$test_aa.coverage" NAME="test_aa Coverage Results" MODIFIED="1531192209727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/selenium$card_01_loginPage.coverage" NAME="card_01_loginPage Coverage Results" MODIFIED="1542958602789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case/Page_obj" />
     <SUITE FILE_PATH="coverage/selenium$test.coverage" NAME="test Coverage Results" MODIFIED="1542962155600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/selenium$card_01_loginPage.coverage" NAME="card_01_loginPage Coverage Results" MODIFIED="1543204167071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case/Page_obj" />
     <SUITE FILE_PATH="coverage/GitHub$Unittests_for_test_11_Test.coverage" NAME="Unittests for test_11.Test Coverage Results" MODIFIED="1532399251275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
-    <SUITE FILE_PATH="coverage/selenium$Unittests_in_test_card_01_loging_py.coverage" NAME="Unittests in test_card_01_loging.py Coverage Results" MODIFIED="1542960369785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case/test_case" />
+    <SUITE FILE_PATH="coverage/selenium$Unittests_in_test_card_01_loging_py.coverage" NAME="Unittests in test_card_01_loging.py Coverage Results" MODIFIED="1543204665725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/GitHub$data_read.coverage" NAME="data_read Coverage Results" MODIFIED="1533716539740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data/test_data" />
-    <SUITE FILE_PATH="coverage/selenium$browser.coverage" NAME="browser Coverage Results" MODIFIED="1542957449144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/selenium$browser.coverage" NAME="browser Coverage Results" MODIFIED="1543203643358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/GitHub$Unittests_for_selenium56_Test_test03.coverage" NAME="Unittests for selenium56.Test.test03 Coverage Results" MODIFIED="1530608377525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/selenium" />
     <SUITE FILE_PATH="coverage/GitHub$globalparam__3_.coverage" NAME="globalparam (3) Coverage Results" MODIFIED="1531993774136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/config" />
     <SUITE FILE_PATH="coverage/selenium$log__1_.coverage" NAME="log (1) Coverage Results" MODIFIED="1542959768030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../selenium_python/public" />
@@ -81,7 +80,7 @@
     <SUITE FILE_PATH="coverage/GitHub$tes.coverage" NAME="tes Coverage Results" MODIFIED="1539915438575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/GitHub$selenium58a.coverage" NAME="selenium58a Coverage Results" MODIFIED="1530521963291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/selenium" />
     <SUITE FILE_PATH="coverage/GitHub$Unittests_for_test_Bolg_test_login.coverage" NAME="Unittests for test.Bolg.test_login Coverage Results" MODIFIED="1531274147158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/selenium$globalparam.coverage" NAME="globalparam Coverage Results" MODIFIED="1542966486116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/config" />
+    <SUITE FILE_PATH="coverage/selenium$globalparam.coverage" NAME="globalparam Coverage Results" MODIFIED="1543202361160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/config" />
     <SUITE FILE_PATH="coverage/GitHub$Unittests_in_my_unit_py.coverage" NAME="Unittests in my_unit.py Coverage Results" MODIFIED="1533522427734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/GitHub$Unittests_in_test_1_py.coverage" NAME="Unittests in test_1.py Coverage Results" MODIFIED="1530598914195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_18_7_3/baidu" />
     <SUITE FILE_PATH="coverage/GitHub$Unittests_in_test_3_py.coverage" NAME="Unittests in test_3.py Coverage Results" MODIFIED="1530599166925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_18_7_3/blog" />
@@ -113,6 +112,7 @@
     <SUITE FILE_PATH="coverage/GitHub$Unittests_for_test_baidu_TestBrowser_test_baidu_1.coverage" NAME="Unittests for test_baidu.TestBrowser.test_baidu_1 Coverage Results" MODIFIED="1529657384174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/GitHub$Unittests_for_case_Test_test_a.coverage" NAME="Unittests for case.Test.test_a Coverage Results" MODIFIED="1530840085192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/GitHub$moudle__1_.coverage" NAME="moudle (1) Coverage Results" MODIFIED="1529896816170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_csh/baidu" />
+    <SUITE FILE_PATH="coverage/selenium$Unittests_for_test_card_01_loging_Login_Test_test_login_03_verify.coverage" NAME="Unittests for test_card_01_loging.Login_Test.test_login_03_verify Coverage Results" MODIFIED="1543204552892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/GitHub$log__2_.coverage" NAME="log (2) Coverage Results" MODIFIED="1531970110470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/GitHub$readpath.coverage" NAME="readpath Coverage Results" MODIFIED="1531383392314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/selenium$Unittests_for_myunit_My_Test.coverage" NAME="Unittests for myunit.My_Test Coverage Results" MODIFIED="1542811421968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
@@ -146,7 +146,7 @@
     <SUITE FILE_PATH="coverage/GitHub$Unittests_for_test_3_Test_test_h.coverage" NAME="Unittests for test_3.Test.test_h Coverage Results" MODIFIED="1530599140751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_18_7_3/blog" />
     <SUITE FILE_PATH="coverage/GitHub$test_bb.coverage" NAME="test_bb Coverage Results" MODIFIED="1531202211048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/GitHub$run_ai_test.coverage" NAME="run_ai_test Coverage Results" MODIFIED="1534744883757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/selenium$Unittests_for_myunit_My_Unit.coverage" NAME="Unittests for myunit.My_Unit Coverage Results" MODIFIED="1542960219046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/selenium$Unittests_for_myunit_My_Unit.coverage" NAME="Unittests for myunit.My_Unit Coverage Results" MODIFIED="1542968527044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/GitHub$test_g.coverage" NAME="test_g Coverage Results" MODIFIED="1530598067203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/GitHub$Unittests_for_test_baidu_TestBrowser.coverage" NAME="Unittests for test_baidu.TestBrowser Coverage Results" MODIFIED="1529909659989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/GitHub$Unittests_for_test_1_Test_test_a.coverage" NAME="Unittests for test_1.Test.test_a Coverage Results" MODIFIED="1530598893779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_18_7_3/baidu" />
@@ -180,13 +180,14 @@
     <SUITE FILE_PATH="coverage/GitHub$Unittests_for_test_b_Test_f_test_a.coverage" NAME="Unittests for test_b.Test_f.test_a Coverage Results" MODIFIED="1529915058505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/public" />
     <SUITE FILE_PATH="coverage/GitHub$selenium59.coverage" NAME="selenium59 Coverage Results" MODIFIED="1530524286964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/selenium" />
     <SUITE FILE_PATH="coverage/GitHub$HTMLTestRunner__1_.coverage" NAME="HTMLTestRunner (1) Coverage Results" MODIFIED="1530671823659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/" />
+    <SUITE FILE_PATH="coverage/selenium$Unittests_for_myunit_My_Unit_test_unit_02.coverage" NAME="Unittests for myunit.My_Unit.test_unit_02 Coverage Results" MODIFIED="1542968496417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/GitHub$Unittests_for_selenium59_Test_test01.coverage" NAME="Unittests for selenium59.Test.test01 Coverage Results" MODIFIED="1530605077568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/selenium" />
     <SUITE FILE_PATH="coverage/GitHub$Unittests_in_aq_login_sta_py.coverage" NAME="Unittests in aq_login_sta.py Coverage Results" MODIFIED="1533694291570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/GitHub$Unittests_in_run_all_case_py.coverage" NAME="Unittests in run_all_case.py Coverage Results" MODIFIED="1532081032561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/GitHub$Unittests_in_run_py.coverage" NAME="Unittests in run.py Coverage Results" MODIFIED="1533523158426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/GitHub$Unittests_for_test_3_Test.coverage" NAME="Unittests for test_3.Test Coverage Results" MODIFIED="1530599093540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_18_7_3/blog" />
     <SUITE FILE_PATH="coverage/GitHub$globalparam__2_.coverage" NAME="globalparam (2) Coverage Results" MODIFIED="1531987359183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/config/ff" />
-    <SUITE FILE_PATH="coverage/selenium$log.coverage" NAME="log Coverage Results" MODIFIED="1542962136257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
+    <SUITE FILE_PATH="coverage/selenium$log.coverage" NAME="log Coverage Results" MODIFIED="1542968369336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/selenium$exceptionscr.coverage" NAME="exceptionscr Coverage Results" MODIFIED="1542810283643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
     <SUITE FILE_PATH="coverage/GitHub$Unittests_for_selenium56_Test_test02.coverage" NAME="Unittests for selenium56.Test.test02 Coverage Results" MODIFIED="1530608328700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/selenium" />
     <SUITE FILE_PATH="coverage/GitHub$Unittests_for_test_11_Test_test_04.coverage" NAME="Unittests for test_11.Test.test_04 Coverage Results" MODIFIED="1532398660834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/public" />
@@ -207,7 +208,7 @@
     <SUITE FILE_PATH="coverage/GitHub$Unittests_for_login_logout_Bolg.coverage" NAME="Unittests for login_logout.Bolg Coverage Results" MODIFIED="1529561040589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/selenium$Unittests_for_test_card_01_logingPage_Login_Test.coverage" NAME="Unittests for test_card_01_logingPage.Login_Test Coverage Results" MODIFIED="1542957045840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case/Page_test" />
     <SUITE FILE_PATH="coverage/GitHub$datainfo__1_.coverage" NAME="datainfo (1) Coverage Results" MODIFIED="1533283940770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/selenium自动化框架/migu-web-1-master/migu-web-1-master/public" />
-    <SUITE FILE_PATH="coverage/selenium$Unittests_for_test_card_01_loging_Login_Test.coverage" NAME="Unittests for test_card_01_loging.Login_Test Coverage Results" MODIFIED="1542959373973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case/test_case" />
+    <SUITE FILE_PATH="coverage/selenium$Unittests_for_test_card_01_loging_Login_Test.coverage" NAME="Unittests for test_card_01_loging.Login_Test Coverage Results" MODIFIED="1543204302283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/GitHub$Unittests_for_test_2_Test.coverage" NAME="Unittests for test_2.Test Coverage Results" MODIFIED="1530599009290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_18_7_3/baidu" />
     <SUITE FILE_PATH="coverage/GitHub$Unittests_in_test1_py.coverage" NAME="Unittests in test1.py Coverage Results" MODIFIED="1530610269130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/2018_6/case/baidu" />
     <SUITE FILE_PATH="coverage/GitHub$selenium43.coverage" NAME="selenium43 Coverage Results" MODIFIED="1529995746736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/selenium" />
@@ -266,14 +267,14 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="globalparam.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/globalparam.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="test_card_01_loging.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/case/test_card_01_loging.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="325">
-              <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
-                <element signature="e#15#55#0" expanded="true" />
+                <element signature="e#35#84#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -301,7 +302,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="E:/selenium自动化框架/migu-web-1-master/migu-web-1-master/data/testdata/data_read.py" />
         <option value="E:/selenium自动化框架/migu-web-1-master/migu-web-1-master/public/datainfo.py" />
         <option value="$PROJECT_DIR$/report/test_report/run_ai_test.py" />
         <option value="$PROJECT_DIR$/public/my_unit.py" />
@@ -338,20 +338,21 @@
         <option value="$PROJECT_DIR$/case/page_test/test_card_01_logingPage.py" />
         <option value="$PROJECT_DIR$/public/function.py" />
         <option value="$PROJECT_DIR$/case/Page_test/test_card_01_logingPage.py" />
-        <option value="$PROJECT_DIR$/public/browser.py" />
-        <option value="$PROJECT_DIR$/config/config.ini" />
-        <option value="$PROJECT_DIR$/case/Page_obj/card_01_loginPage.py" />
         <option value="$PROJECT_DIR$/../selenium_python/public/log.py" />
         <option value="$PROJECT_DIR$/../selenium_python/public/myunit.py" />
         <option value="$PROJECT_DIR$/case/test_case/test_card_01_loging.py" />
         <option value="$PROJECT_DIR$/public/base.py" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/public/log.py" />
         <option value="$PROJECT_DIR$/public/logs.py" />
-        <option value="$PROJECT_DIR$/public/myunit.py" />
-        <option value="$PROJECT_DIR$/case/test_card_01_loging.py" />
         <option value="$PROJECT_DIR$/public/test_path/logs.py" />
         <option value="$PROJECT_DIR$/config/globalparam.py" />
+        <option value="$PROJECT_DIR$/config/config.py" />
+        <option value="$PROJECT_DIR$/config/config.ini" />
+        <option value="$PROJECT_DIR$/public/myunit.py" />
+        <option value="$PROJECT_DIR$/case/Page_obj/card_01_loginPage.py" />
+        <option value="$PROJECT_DIR$/public/log.py" />
+        <option value="$PROJECT_DIR$/public/browser.py" />
+        <option value="$PROJECT_DIR$/case/test_card_01_loging.py" />
       </list>
     </option>
   </component>
@@ -365,15 +366,16 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="450" />
+    <option name="x" value="350" />
     <option name="width" value="700" />
-    <option name="height" value="735" />
+    <option name="height" value="729" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -389,41 +391,34 @@
             <path>
               <item name="selenium" type="b2602c69:ProjectViewProjectNode" />
               <item name="selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="test_path" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../selenium_python/public/log.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../selenium_python/test_case/a1_login_sta.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\GitHub" />
-      <recent name="E:\GitHub\test\selenium" />
-      <recent name="E:\Program Files (x86)\python\GitHub\test" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Git_test\selenium" />
       <recent name="E:\Git_test\selenium\case" />
       <recent name="E:\Git_test\selenium\public\test_path" />
       <recent name="E:\GitHub\data\test_data" />
       <recent name="E:\GitHub\report" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GitHub" />
+      <recent name="E:\GitHub\test\selenium" />
+      <recent name="E:\Program Files (x86)\python\GitHub\test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -438,8 +433,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.globalparam">
-    <configuration name="globalparam" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.Unittests in test_card_01_loging.py">
+    <configuration name="card_01_loginPage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GitHub" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -447,67 +442,29 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/config" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case/Page_obj" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/config/globalparam.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case/Page_obj/card_01_loginPage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="logs (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="GitHub" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/public/test_path" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\Git_test\selenium\logs.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="logs (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="GitHub" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logs.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="Unittests for case.Page_test.test_card_01_logingPage.Login_Test.test_login_01_username_empty" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_card_01_loging.Login_Test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="GitHub" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case/Page_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;case.Page_test.test_card_01_logingPage.Login_Test.test_login_01_username_empty&quot;" />
+      <option name="_new_target" value="&quot;test_card_01_loging.Login_Test&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="Unittests for test_card_01_loging.Login_Test.test_login_01_username_empty" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -524,34 +481,48 @@
       <option name="_new_target" value="&quot;test_card_01_loging.Login_Test.test_login_01_username_empty&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests in myunit.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_card_01_loging.Login_Test.test_login_03_verify" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="GitHub" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/public" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/public/myunit.py&quot;" />
+      <option name="_new_target" value="&quot;test_card_01_loging.Login_Test.test_login_03_verify&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests in test_card_01_loging.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="GitHub" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/case/test_card_01_loging.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python.logs (1)" />
-      <item itemvalue="Python tests.Unittests in myunit.py" />
+      <item itemvalue="Python tests.Unittests in test_card_01_loging.py" />
+      <item itemvalue="Python tests.Unittests for test_card_01_loging.Login_Test" />
+      <item itemvalue="Python.card_01_loginPage" />
       <item itemvalue="Python tests.Unittests for test_card_01_loging.Login_Test.test_login_01_username_empty" />
-      <item itemvalue="Python.globalparam" />
-      <item itemvalue="Python.logs (2)" />
+      <item itemvalue="Python tests.Unittests for test_card_01_loging.Login_Test.test_login_03_verify" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.globalparam" />
-        <item itemvalue="Python.logs (2)" />
-        <item itemvalue="Python.logs (1)" />
+        <item itemvalue="Python tests.Unittests in test_card_01_loging.py" />
+        <item itemvalue="Python tests.Unittests for test_card_01_loging.Login_Test.test_login_03_verify" />
+        <item itemvalue="Python tests.Unittests for test_card_01_loging.Login_Test" />
         <item itemvalue="Python tests.Unittests for test_card_01_loging.Login_Test.test_login_01_username_empty" />
-        <item itemvalue="Python tests.Unittests in myunit.py" />
+        <item itemvalue="Python.card_01_loginPage" />
       </list>
     </recent_temporary>
   </component>
@@ -569,35 +540,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_card_01_loging_Login_Test - 2018.11.23 at 15h 49m 34s.xml">
+    <history-entry file="Unittests_in_test_card_01_loging_py - 2018.11.26 at 11h 45m 21s.xml">
+      <configuration name="Unittests in test_card_01_loging.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_card_01_loging_py - 2018.11.26 at 11h 46m 02s.xml">
+      <configuration name="Unittests in test_card_01_loging.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_card_01_loging_Login_Test - 2018.11.26 at 11h 48m 05s.xml">
       <configuration name="Unittests for test_card_01_loging.Login_Test" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_card_01_loging_Login_Test_test_login_02_passwd_empty - 2018.11.23 at 15h 58m 04s.xml">
-      <configuration name="Unittests for test_card_01_loging.Login_Test.test_login_02_passwd_empty" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_card_01_loging_py - 2018.11.23 at 15h 59m 55s.xml">
-      <configuration name="Unittests in test_card_01_loging.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_card_01_loging_py - 2018.11.23 at 16h 00m 45s.xml">
-      <configuration name="Unittests in test_card_01_loging.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_myunit_My_Unit - 2018.11.23 at 16h 03m 39s.xml">
-      <configuration name="Unittests for myunit.My_Unit" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_myunit_py - 2018.11.23 at 16h 04m 37s.xml">
-      <configuration name="Unittests in myunit.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_card_01_loging_Login_Test_test_login_01_username_empty - 2018.11.23 at 16h 05m 28s.xml">
+    <history-entry file="Unittests_for_test_card_01_loging_Login_Test_test_login_01_username_empty - 2018.11.26 at 11h 49m 56s.xml">
       <configuration name="Unittests for test_card_01_loging.Login_Test.test_login_01_username_empty" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_card_01_loging_py - 2018.11.23 at 16h 06m 10s.xml">
+    <history-entry file="Unittests_for_test_card_01_loging_Login_Test_test_login_01_username_empty - 2018.11.26 at 11h 51m 14s.xml">
+      <configuration name="Unittests for test_card_01_loging.Login_Test.test_login_01_username_empty" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_card_01_loging_Login_Test - 2018.11.26 at 11h 51m 52s.xml">
+      <configuration name="Unittests for test_card_01_loging.Login_Test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_card_01_loging_py - 2018.11.26 at 11h 54m 11s.xml">
       <configuration name="Unittests in test_card_01_loging.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_myunit_py - 2018.11.23 at 16h 42m 40s.xml">
-      <configuration name="Unittests in myunit.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_card_01_loging_Login_Test_test_login_03_verify - 2018.11.26 at 11h 56m 03s.xml">
+      <configuration name="Unittests for test_card_01_loging.Login_Test.test_login_03_verify" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_card_01_loging_Login_Test_test_login_01_username_empty - 2018.11.23 at 16h 44m 48s.xml">
-      <configuration name="Unittests for test_card_01_loging.Login_Test.test_login_01_username_empty" configurationId="tests" />
+    <history-entry file="Unittests_in_test_card_01_loging_py - 2018.11.26 at 11h 56m 34s.xml">
+      <configuration name="Unittests in test_card_01_loging.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_card_01_loging_py - 2018.11.26 at 11h 57m 57s.xml">
+      <configuration name="Unittests in test_card_01_loging.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -617,10 +588,10 @@
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50680786" side_tool="true" weight="0.5223141" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32838285" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49319214" weight="0.2661157" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3272727" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49319214" weight="0.5157025" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="right" content_ui="combo" id="Project" order="6" visible="true" weight="0.25189108" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="6" visible="true" weight="0.21406959" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" weight="0.3290469" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32231405" />
@@ -628,6 +599,7 @@
       <window_info id="Structure" order="0" side_tool="true" weight="0.24962178" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39338842" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32838285" />
       <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.32838285" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -635,33 +607,32 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32838285" />
       <window_info anchor="right" id="Coverage" order="3" side_tool="true" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.32838285" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="6" visible="true" weight="0.24281392" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="5" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3297587" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49319214" weight="0.5223141" />
+      <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.32838285" />
       <window_info id="Structure" order="0" side_tool="true" weight="0.24962178" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4977307" weight="0.32838285" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49319214" weight="0.5223141" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32343236" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32838285" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39432624" />
-      <window_info anchor="right" id="Database" order="3" weight="0.3297587" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50680786" side_tool="true" weight="0.5223141" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32838285" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="6" visible="true" weight="0.24281392" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39432624" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Coverage" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50680786" side_tool="true" weight="0.5223141" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="5" weight="0.32980332" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32343236" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32838285" />
       <window_info id="Favorites" order="1" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -739,9 +710,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/case/case.py" />
-    <entry file="file://$PROJECT_DIR$/report/test_report/2018-08-13 15-07-51result.html" />
-    <entry file="file://$PROJECT_DIR$/report/image/pk_a1_2.jpg" />
     <entry file="file://$PROJECT_DIR$/report/logs/2018081315.log" />
     <entry file="file://$PROJECT_DIR$/report/image/pk_a1_3.jpg" />
     <entry file="file://$PROJECT_DIR$/report/image/pk_a1_4.jpg" />
@@ -767,13 +735,6 @@
     <entry file="file://$PROJECT_DIR$/case/Page_obj/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/test_data/data_read.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_case/page_test/a1_pk_test_loginPage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-270">
@@ -781,20 +742,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/new.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/logs/run_test.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/new.log" />
+    <entry file="file://$PROJECT_DIR$/report/logs/run_test.log" />
     <entry file="file://$PROJECT_DIR$/public/datainfo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -809,53 +758,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../selenium_python/test_case/a1_login_sta.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/browser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/Page_obj/card_01_loginPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1506">
-          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
-          <folding>
-            <element signature="e#529#578#0" />
-            <element signature="e#624#669#0" />
-            <element signature="e#1641#1643#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../selenium_python/public/browser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/function.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-          <folding>
-            <element signature="e#15#43#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -880,16 +786,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/base.py">
+    <entry file="file://$PROJECT_DIR$/public/geckodriver.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/python.py" />
+    <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
-          <folding>
-            <element signature="e#15#72#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="200">
+          <caret line="41" column="21" lean-forward="true" selection-start-line="39" selection-end-line="41" selection-end-column="21" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/logs.py" />
     <entry file="file://$PROJECT_DIR$/report/logs/2018_11_23_UI_automated_test.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -897,67 +805,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/geckodriver.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/log.py">
+    <entry file="file://$PROJECT_DIR$/data/test_case_data/data_read.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="85" column="13" lean-forward="true" selection-start-line="70" selection-end-line="85" selection-end-column="13" />
+        <state relative-caret-position="300">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
           <folding>
-            <element signature="e#15#54#0" expanded="true" />
-            <element signature="e#104#204#1" />
+            <element signature="e#15#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/case/python.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/public/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="41" column="21" lean-forward="true" selection-start-line="39" selection-end-line="41" selection-end-column="21" />
+        <state relative-caret-position="204">
+          <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
           <folding>
-            <element signature="n#!!doc" />
-            <element signature="e#1143#1173#0" expanded="true" />
+            <element signature="e#15#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/geckodriver.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="40" lean-forward="true" selection-start-column="40" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../selenium_python/public/browser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/Page_obj/card_01_loginPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/myunit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+          <folding>
+            <element signature="e#34#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/browser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="e#15#54#0" expanded="true" />
+            <element signature="e#142#242#1" />
+            <element signature="e#290#466#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../selenium_python/test_case/a1_login_sta.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-344">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/logs/2018_11_26_UI_automated_test.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-44" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/globalparam.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="46" column="12" lean-forward="true" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+          <folding>
+            <element signature="e#15#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/case/test_card_01_loging.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+        <state relative-caret-position="325">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="e#35#84#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/myunit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#15#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/globalparam.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-          <folding>
-            <element signature="e#15#55#0" expanded="true" />
           </folding>
         </state>
       </provider>

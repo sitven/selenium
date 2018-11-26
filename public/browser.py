@@ -1,11 +1,11 @@
 # coding=utf-8
 from selenium import webdriver
-
-def select_browser(browser='Chrome'):
+def select_browser(browser):
+    dr = None
     if browser == 'Chrome' or browser == "Ch":
         dr = webdriver.Chrome()
-    if browser == 'Firefox' or browser == 'Ff':
+    elif browser == 'Firefox' or browser == 'Ff':
         dr = webdriver.Firefox()
-    if browser == 'Ie' or browser == 'ie':
+    elif browser == 'Ie' or browser == 'ie':
         dr = webdriver.Ie
     return dr

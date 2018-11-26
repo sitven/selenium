@@ -34,13 +34,13 @@ auto_path = os.path.join(project_path, " up_files", "autoit_pic")
 '''Upload the autoit file path (上传文件路径)'''
 # print(auto_path)
 
-# Test data path (测试数据路径)
-data_path = os.path.join(project_path, 'data', 'test_data')
+data_path = os.path.join(project_path, 'data', 'test_case_data')
+"""Test data file path (测试数据文件路径)"""
 # print(data_path)
 
-# Get the browser name (浏览器名称)
-browser = read_config.getValue("BrowserType", "browser_name")
-# print(browser)
+browser_name = read_config.getValue("BrowserType", "browser_name")
+"""#Get the browser name (获取浏览器名称)"""
+# print(browser_name)
 
 url = read_config.getValue("testServer", "URL")
 '''Get the test The main domain name (获取测试的主域名)'''

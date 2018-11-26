@@ -3,7 +3,7 @@ from public.myunit import My_Test
 from public.base import Page
 from public import function
 from test_case.page_obj.a1_pk_loginPage import login
-from data.test_data.data_read import Test_Data
+from data.test_case_data.data_read import Test_Data
 import unittest
 import ddt
 
