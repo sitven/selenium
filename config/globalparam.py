@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 # coding=utf-8
 from public.readconfig import ReadConfig
 import os
@@ -37,6 +38,10 @@ auto_path = os.path.join(project_path, " up_files", "autoit_pic")
 data_path = os.path.join(project_path, 'data', 'test_case_data')
 """Test data file path (测试数据文件路径)"""
 # print(data_path)
+
+case_path = os.path.join(project_path, 'case')
+"""Test case file path (测试用例文件路径)"""
+# print(case_path)
 
 browser_name = read_config.getValue("BrowserType", "browser_name")
 """#Get the browser name (获取浏览器名称)"""

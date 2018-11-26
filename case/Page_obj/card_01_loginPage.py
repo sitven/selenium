@@ -49,6 +49,3 @@ class Login(Page):
     # 获取成功页面微信查看按钮文案
     def get_succees_text(self):
         return self.get_text(self.login_succee_loc)
-
-
-

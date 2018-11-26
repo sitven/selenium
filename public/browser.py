@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 # coding=utf-8
 from selenium import webdriver
 def select_browser(browser):

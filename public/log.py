@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 # coding=utf-8
 from config.globalparam import log_path
 from time import strftime
@@ -15,7 +16,7 @@ class My_Log():
         self.logger = logging.getLogger(logger)
         # 定义log路径名称
         self.log_name = join(log_path, strftime('%Y_%m_%d' + '_UI_automated_test.log'))
-        print(self.log_name)
+
     def __printconsole(self, level, message):
         # 创建一个logger(记录器),设置log级别
         self.logger.setLevel(logging.DEBUG)

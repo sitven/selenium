@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 # coding=utf-8
 from public.base import Page
 from config.globalparam import image_path
