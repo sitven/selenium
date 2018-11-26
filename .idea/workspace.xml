@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07aefc03-a2b2-4cc1-a71e-d8ef91912555" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/Page_obj/card_01_loginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/Page_obj/card_01_loginPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/geckodriver.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/test_card_01_loging.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/test_card_01_loging.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/test_case/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/test_case_data/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/globalparam.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/globalparam.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/test_data/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/test_data/data_read.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/test_case_data/data_read.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/browser.py" beforeDir="false" afterPath="$PROJECT_DIR$/public/browser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/public/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/public/log.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/myunit.py" beforeDir="false" afterPath="$PROJECT_DIR$/public/myunit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/logs/2018_11_23_UI_automated_test.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/page_obj/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/page_obj/a1_pk_loginPage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/page_test/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/page_test/a1_pk_test_loginPage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -271,8 +254,8 @@
       <file leaf-file-name="test_card_01_loging.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/case/test_card_01_loging.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="175">
+              <caret line="7" column="52" lean-forward="true" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
               <folding>
                 <element signature="e#35#84#0" expanded="true" />
               </folding>
@@ -365,7 +348,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="350" />
     <option name="width" value="700" />
     <option name="height" value="729" />
@@ -382,11 +365,6 @@
             <path>
               <item name="selenium" type="b2602c69:ProjectViewProjectNode" />
               <item name="selenium" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="selenium" type="b2602c69:ProjectViewProjectNode" />
@@ -581,7 +559,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4977307" weight="0.32838285" />
@@ -913,8 +891,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/case/test_card_01_loging.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="175">
+          <caret line="7" column="52" lean-forward="true" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
           <folding>
             <element signature="e#35#84#0" expanded="true" />
           </folding>
