@@ -6,11 +6,11 @@ project_path = os.path.split(os.path.split(os.path.realpath(__file__))[0])[0]
 '''Gets the project absolute path (获取项目绝对路径)'''
 # print(project_path)
 
-config_file_path = os.path.split(os.path.realpath(__file__))[0]
+config_file_path =os.path.split(os.path.realpath(__file__))[0]
 '''Get the config folder path （获取config文件夹路径）'''
 # print(config_file_path)
 
-read_config = ReadConfig(os.path.join(config_file_path, 'config.ini'))
+read_config = ReadConfig(os.path.join(os.path.split(os.path.realpath(__file__))[0], 'config.ini'))
 '''Read configuration file （读取config配置文件）'''
 # print(read_config)
 

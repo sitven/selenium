@@ -32,17 +32,11 @@ class Login(Page):
 
     # 登录流程
     def login_process(self, username, passwd, verify):
-        print(1)
         self.open_url(self.url)
-        print(2)
         self.login_username(username)
-        print(3)
         self.login_passwd(passwd)
-        print(4)
         self.login_verify(verify)
-        print(5)
         self.login_button()
-        print(6)
 
     # 登录结果
     login_hint_loc = ('xpath', "//div[@class='tips']")                          # 失败提示
