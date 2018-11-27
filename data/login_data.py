@@ -16,5 +16,5 @@ login_cookies_dict = {'expiry': 1543887494, 'name': 'b_login',
                                'cHN6UGYzRlRyXC9FS2Rxdjgrc3YzMnVQK1BhVSt6WDJ0TW1mNDNJUzNLZm1zcXkiLCJtYWMiOiJjOTExZ'
                                'jUwZDg0NjU3ZjFkNGM2NDRmNzJkM2U3MTYwYTA4MjY0OTI5MDI2ZGJiMTNiNjk3MDg4ZGZmYjNkMTYzIn0%3D'}
 
-# 角色信息
+# 角色权限
 role_of_login = ['管理员', '普通用户']
