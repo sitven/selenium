@@ -39,10 +39,10 @@ class Page():
         file_path = globalparam.exception_image_path + "\\" + file_name
         try:
             self._open_url(url)
-            self.my_print("{0}navigated to {1}, Spend {2} seconds"
+            self.my_info("{0}navigated to {1}, Spend {2} seconds"
                           "".format(success, self.base_url + url, "%.5f"%(time.time()-start_time)))
         except Exception:
-            self.my_print("{0}unable to load {1}, Spend {2} seconds"
+            self.my_info("{0}unable to load {1}, Spend {2} seconds"
                           .format(fail, self.base_url + url, "%.5f"%(time.time()-start_time)))
             self.fail_img()
             raise
@@ -51,14 +51,14 @@ class Page():
     def max_window(self):
         start_time = time.time()
         self.driver.maximize_window()
-        self.my_print(("{0}set browser window maximized, Spend {1}"
+        self.my_info(("{0}set browser window maximized, Spend {1}"
                        "seconds").format(success, "%.5f"%(time.time()-start_time)))
 
     # 设置浏览器大小
     def set_window(self, width, highth):
         start_time = time.time()
         self.driver.set_window_size(width, highth)
-        self.my_print("{0}set browser window width: {1},high: {2}, Spend {3} "
+        self.my_info("{0}set browser window width: {1},high: {2}, Spend {3} "
                       "seconds".format(success, width, highth, "%.5f"%(time.time()-start_time)))
 
     # 获取浏览器窗口大小
@@ -75,7 +75,7 @@ class Page():
         """
         start_time = time.time()
         self.driver.close()
-        self.my_print("{0}closed the current window  the driver, Spend {1} seconds"
+        self.my_info("{0}closed the current window  the driver, Spend {1} seconds"
                       "".format(success, "%.5f"%(time.time()-start_time)))
 
     # 关闭浏览器
@@ -87,7 +87,7 @@ class Page():
         """
         start_time = time.time()
         self.driver.quit()
-        self.my_print("{0}exit the browser, Spend {1} seconds"
+        self.my_info("{0}exit the browser, Spend {1} seconds"
                       "".format(success, "%.5f"%(time.time()-start_time)))
 
 
@@ -135,14 +135,98 @@ class Page():
             print('...%s'%name_error)
         else:
             return element
+        # 获取元素属性的值
+
+    def get_attribute(self, css, attribute):
+        """
+        Gets the value of an element attribute.
+        Usage:
+        driver.get_attribute("id->su","href")
+        """
+        css1 = css[0] + "->" + css[1]
+        start_time = time.time()
+        try:
+            element = self.get_element(css)
+            attr = element.get_attribute(attribute)
+            if attr is None:
+                raise AttributeError
+            else:
+                self.my_info("{0}get attribute element: <{1}>,attribute: {2}, Spend {3} seconds"
+                              "".format(success, css1, attribute, "%.5f" % (time.time() - start_time)))
+                return attr
+        except Exception:
+            self.my_info("{0}to get the attribute ({2}) of the element <{1}>, Spend {3} seconds"
+                          " ->{4}".format(fail, css1, attribute, "%.5f" % (time.time() - start_time), self))
+            raise
+
+
+    # 获取操作元素的text
+    def get_text(self, css):
+        """
+        Get element text information.
+        Usage:
+        driver.get_text("id->kw")
+        """
+        start_time = time.time()
+        css1 = css[0] + "->" + css[1]
+        self.element_wait_display(css)
+        text = self.get_element(css).text
+        self.my_info("{0}get element text element: <{1}>, Spend {2} seconds"
+                      "".format(success, css1, "%.5f" % (time.time() - start_time)))
+        return text
+
+        # 获取title
+
+    def get_title(self):
+        """
+        Get window title.
+        Usage:
+        title = driver.get_title()
+        """
+        start_time = time.time()
+        title = self.driver.title
+        self.my_info("{0}get current window title, Spend {1} seconds"
+                      "".format(success, "%.5f" % (time.time() - start_time)))
+        return title
+
+        # 获取url
+
+    def get_url(self):
+        """
+        Get the URL address of the current page.
+        Usage:
+        url = driver.get_url()
+        """
+        start_time = time.time()
+        url = self.driver.current_url
+        self.my_info("{0}get current window url, Spend {1} seconds"
+                      "".format(success, "%.5f" % (time.time() - start_time)))
+        return url
 
     # 打印info日志
-    def my_print(self, message):
+    def my_info(self, message):
         logger.info(message)
 
     def my_error(self, message):
         logger.error(message)
 
+    # 添加cookie
+    def browser_add_cookies(self, *args):
+        """
+        add cookies.
+        Usage:
+        add_cookes({'name':'user'},{'password':'passwd'})
+        """
+        n = len(args)
+        try:
+            if n >= 1:
+                for m in args:
+                    self.driver.add_cookie(m)
+                    self.my_info("add cookies sucess: {0}".format(m))
+            else:
+                raise ValueError
+        except ValueError:
+            self.my_error('cookie is NULL, Please input correctly cookies')
 
     # 操作输入框
     def input_box(self,css,text):
@@ -157,10 +241,10 @@ class Page():
         try:
             self.element_wait_display(css)
             self.get_element(css).send_keys(text)
-            self.my_print("{0}typed element: <{1}> content: {2}, Spend {3} seconds "
+            self.my_info("{0}typed element: <{1}> content: {2}, Spend {3} seconds "
                           "-- from: {4}".format(success,css1,text, time.time()-start_time,base_path))
         except Exception:
-            self.my_print("{0}unable to type element: <{1}> content: {2},Spend {3} "
+            self.my_info("{0}unable to type element: <{1}> content: {2},Spend {3} "
                           "seconds-- from: {4} ->{5}".format(fail, css1, text, "%.5f"%
                                                              (time.time()-start_time), base_path, self))
             self.fail_img()
@@ -176,11 +260,11 @@ class Page():
             el = self.get_element(css)
             el.clear()
             el.send_keys(text)
-            self.my_print("{0}typed element: <{1}> content: {2}, Spend {3} seconds "
+            self.my_info("{0}typed element: <{1}> content: {2}, Spend {3} seconds "
                           "-- from: {4}".format(success, css1, text, "%.5f"%(time.time()-start_time),
                                                 base_path))
         except Exception:
-            self.my_print("{0}unable to type element: <{1}> content: {2},Spend {3} seconds-- "
+            self.my_info("{0}unable to type element: <{1}> content: {2},Spend {3} seconds-- "
                           "from: {4} ->{5}".format(fail, css1, text, "%.5f"%(time.time()-start_time),
                                                    base_path, self))
             self.fail_img()
@@ -199,10 +283,10 @@ class Page():
         try:
             self.element_wait_display(css)
             self.get_element(css).click()
-            self.my_print("{0}clicked element: <{1}>, Spend {2} seconds"
+            self.my_info("{0}clicked element: <{1}>, Spend {2} seconds"
                           "".format(success, css1, "%.5f"%(time.time()-start_time)))
         except Exception:
-            self.my_print("{0}clicked element: <{1}>, Spend {2} seconds ->{3}"
+            self.my_info("{0}clicked element: <{1}>, Spend {2} seconds ->{3}"
                           "".format(fail, css1, "%.5f"%(time.time()-start_time), self))
             raise
 
@@ -218,10 +302,10 @@ class Page():
         try:
             self.element_wait_display(css)
             ActionChains(self.driver).context_click(self.get_element(css)).perform()
-            self.my_print("{0}right click element: <{1}>, Spend {2} seconds"
+            self.my_info("{0}right click element: <{1}>, Spend {2} seconds"
                           "".format(success, css1, "%.5f"%(time.time()-start_time)))
         except Exception:
-            self.my_print("{0}right click element: <{1}>, Spend {2} seconds ->{3}"
+            self.my_info("{0}right click element: <{1}>, Spend {2} seconds ->{3}"
                           "".format(fail, css1, "%.5f"%(time.time()-start_time), self))
             raise
 
@@ -237,10 +321,10 @@ class Page():
         try:
             self.element_wait_display(css)
             ActionChains(self.driver).move_to_element(self.get_element(css))
-            self.my_print("{0}move to element:<{1}>, Spend {2} seconds"
+            self.my_info("{0}move to element:<{1}>, Spend {2} seconds"
                           "".format(success, css1, "%.5f"%(time.time()-start_time)))
         except Exception:
-            self.my_print("{0}move to element:<{1}>, Spend {2} seconds ->{3}".
+            self.my_info("{0}move to element:<{1}>, Spend {2} seconds ->{3}".
                           format(fail, css1, "%.5f"%(time.time()-start_time), self))
             raise
 
@@ -256,10 +340,10 @@ class Page():
         print(css1)
         try:
             ActionChains(self.driver).double_click(css)
-            self.my_print("{0}double click element: <{1}>, Spend {2} seconds"
+            self.my_info("{0}double click element: <{1}>, Spend {2} seconds"
                           "".format(success, css1, "%.5f"%(time.time()-start_time)))
         except Exception:
-            self.my_print("{0}double click element: <{1}>, Spend {2} seconds ->{3}"
+            self.my_info("{0}double click element: <{1}>, Spend {2} seconds ->{3}"
                           "".format(fail, css1, "%.5f"%(time.time()-start_time), self))
             raise
 
@@ -279,10 +363,10 @@ class Page():
             self.element_wait_display(drop_css)
             op_element = self.get_element(drop_css)
             ActionChains(self.driver).drag_and_drop(ag_element, op_element).perform()
-            self.my_print("{0}drag and drop element: <{1}> to element: <{2}>, Spend {3} seconds"
+            self.my_info("{0}drag and drop element: <{1}> to element: <{2}>, Spend {3} seconds"
                           "".format(success, ag_css, op_css, "%.5f"%(time.time()-start_time)))
         except Exception:
-            self.my_print("{0}drag and drop element: <{1}> to element: <{2}>, Spend {3} seconds ->{4}"
+            self.my_info("{0}drag and drop element: <{1}> to element: <{2}>, Spend {3} seconds ->{4}"
                           "".format(fail, ag_css, op_css, "%.5f"%(time.time()-start_time), self))
             raise
 
@@ -296,10 +380,10 @@ class Page():
         start_time = time.time()
         try:
             self.driver.find_element_by_partial_link_text(text).click()
-            self.my_print("{0}click by text content: {1}, Spend {2} seconds"
+            self.my_info("{0}click by text content: {1}, Spend {2} seconds"
                           "".format(success, text, "%.5f"%(time.time()-start_time)))
         except Exception:
-            self.my_print("{0}click by text content: {1}, Spend {2} seconds ->{3}"
+            self.my_info("{0}click by text content: {1}, Spend {2} seconds ->{3}"
                           "".format(fail, text, "%.5f"%(time.time()-start_time), self))
             raise
 
@@ -312,72 +396,8 @@ class Page():
         """
         start_time = time.time()
         self.driver.refresh()
-        self.my_print("{0}refresh the current page, Spend {1} seconds"
+        self.my_info("{0}refresh the current page, Spend {1} seconds"
                       "".format(success, "%.5f"%(time.time()-start_time)))
-
-    # 获取元素属性的值
-    def get_attribute(self, css, attribute):
-        """
-        Gets the value of an element attribute.
-        Usage:
-        driver.get_attribute("id->su","href")
-        """
-        css1 = css[0] + "->" + css[1]
-        start_time = time.time()
-        try:
-            element = self.get_element(css)
-            attr = element.get_attribute(attribute)
-            if attr is None:
-                raise AttributeError
-            else:
-                self.my_print("{0}get attribute element: <{1}>,attribute: {2}, Spend {3} seconds"
-                              "".format(success, css1, attribute, "%.5f"%(time.time()-start_time)))
-                return attr
-        except Exception:
-            self.my_print("{0}to get the attribute ({2}) of the element <{1}>, Spend {3} seconds"
-                          " ->{4}".format(fail, css1, attribute, "%.5f"%(time.time()-start_time), self))
-            raise
-
-    # 获取操作元素的text
-    def get_text(self, css):
-        """
-        Get element text information.
-        Usage:
-        driver.get_text("id->kw")
-        """
-        start_time = time.time()
-        css1 = css[0] + "->" + css[1]
-        self.element_wait_display(css)
-        text = self.get_element(css).text
-        self.my_print("{0}get element text element: <{1}>, Spend {2} seconds"
-                      "".format(success, css1, "%.5f"%(time.time()-start_time)))
-        return text
-
-    # 获取title
-    def get_title(self):
-        """
-        Get window title.
-        Usage:
-        title = driver.get_title()
-        """
-        start_time = time.time()
-        title = self.driver.title
-        self.my_print("{0}get current window title, Spend {1} seconds"
-                      "".format(success, "%.5f"%(time.time()-start_time)))
-        return title
-
-    # 获取url
-    def get_url(self):
-        """
-        Get the URL address of the current page.
-        Usage:
-        url = driver.get_url()
-        """
-        start_time = time.time()
-        url = self.driver.current_url
-        self.my_print("{0}get current window url, Spend {1} seconds"
-                      "".format(success, "%.5f"%(time.time()-start_time)))
-        return url
 
     # 隐性等待
     def wait(self,secs=5):
@@ -387,7 +407,7 @@ class Page():
         driver.wait(secs=10)
          """
         self.driver.implicitly_wait(secs)
-        self.my_print("{0}set wait all element display in {1} seconds.".format(success, secs))
+        self.my_info("{0}set wait all element display in {1} seconds.".format(success, secs))
 
     # 接受警告弹框
     def accept_alert(self):
@@ -398,7 +418,7 @@ class Page():
         """
         start_time = time.time()
         self.driver.switch_to.alert.accept()
-        self.my_print("{0}accept warning box, Spend {1} seconds"
+        self.my_info("{0}accept warning box, Spend {1} seconds"
                       "".format(success, "%.5f"%(time.time()-start_time)))
 
     # 解除警告弹框
@@ -410,7 +430,7 @@ class Page():
         """
         start_time = time.time()
         self.driver.switch_to.alert.dismiss()
-        self.my_print("{0}dismisses the alert available, Spend {1} seconds"
+        self.my_info("{0}dismisses the alert available, Spend {1} seconds"
                       "".format(success, "%.5f"%(time.time()-start_time)))
 
     # 切换到指定的frame
@@ -425,14 +445,14 @@ class Page():
             if index == 'default' or css != 'default':
                 css1 = css[0] + "->" + css[1]
                 self.driver.switch_to.frame(self.get_element(css))
-                self.my_print("{0}switch to frame element: <{1}>, Spend {2} seconds"
+                self.my_info("{0}switch to frame element: <{1}>, Spend {2} seconds"
                               "".format(success, css1, "%.5f"%(time.time()-start_time)))
             elif index != 'default' or css == 'default':
                 self.driver.switch_to.frame(index)
-                self.my_print("{0}switch to index {1} frame, Spend {2} seconds"
+                self.my_info("{0}switch to index {1} frame, Spend {2} seconds"
                               "".format(success, index, "%.5f"%(time.time()-start_time)))
         except Exception:
-            self.my_print("{0}unable switch to frame, Please re-enter the element "
+            self.my_info("{0}unable switch to frame, Please re-enter the element "
                           "or index ->{1}".format(fail, self))
             raise
 
@@ -446,7 +466,7 @@ class Page():
         """
         start_time = time.time()
         self.driver.switch_to.default_content()
-        self.my_print("{0}switch to frame out, Spend {1} seconds"
+        self.my_info("{0}switch to frame out, Spend {1} seconds"
                       "".format(success, "%.5f"%(time.time()-start_time)))
 
     # 判断元素是否存在，返回布尔值
@@ -460,11 +480,11 @@ class Page():
         css1 = css[0] + "->" + css[1]
         try:
             self.element_wait_display(css)
-            self.my_print("{0}element: <{1}> is exist, Spend {2} seconds"
+            self.my_info("{0}element: <{1}> is exist, Spend {2} seconds"
                           .format(success, css1, "%.5f"%(time.time()-start_time)))
             return True
         except TimeoutException:
-            self.my_print("{0}element: <{1}> is not exist, Spend {2} seconds ->{3}"
+            self.my_info("{0}element: <{1}> is not exist, Spend {2} seconds ->{3}"
                           .format(fail, css1, "%.5f"%(time.time()-start_time), self))
             self.fail_img()
             return False
@@ -492,10 +512,10 @@ class Page():
         start_time = time.time()
         try:
             self.driver.get_screenshot_as_file(file_path)
-            self.my_print("{0}get the current window screenshot,path: {1}, Spend {2} seconds"
+            self.my_info("{0}get the current window screenshot,path: {1}, Spend {2} seconds"
                           "".format(success, file_path, "%.5f"%(time.time()-start_time)))
         except Exception:
-            self.my_print("{0}unable to get the current window screenshot,path: {1}, Spend {2} seconds"
+            self.my_info("{0}unable to get the current window screenshot,path: {1}, Spend {2} seconds"
                           " ->{3}".format(fail, file_path, "%.5f"%(time.time()-start_time), self))
             self.fail_img()
             raise
@@ -517,10 +537,10 @@ class Page():
             for handle in all_handles:
                 if handle != original_windows:
                     self.driver.switch_to.window(handle)
-            self.my_print("{0}click element: <{1}> open a new window and swich into, Spend {2}"
+            self.my_info("{0}click element: <{1}> open a new window and swich into, Spend {2}"
                           " seconds".format(success, css1, "%.5f" % (time.time() - start_time)))
         except Exception:
-            self.my_print("{0}click element: <{1}> open a new window and swich into, Spend {2} seconds"
+            self.my_info("{0}click element: <{1}> open a new window and swich into, Spend {2} seconds"
                           " ->{3}".format(fail, css1, "%.5f" % (time.time() - start_time), self))
             raise
 
@@ -542,10 +562,10 @@ class Page():
                 if flag == 5:
                     break
             self.driver.switch_to.window(all_handles[-1])
-            self.my_print("{0}switch to the new window,new window's url: {1}, Spend {2} seconds"
+            self.my_info("{0}switch to the new window,new window's url: {1}, Spend {2} seconds"
                           "".format(success, self.driver.current_url, "%.5f"%(time.time()-start_time )))
         except Exception:
-            self.my_print("{0}unable switch to the new window, Spend {1} seconds ->{2}"
+            self.my_info("{0}unable switch to the new window, Spend {1} seconds ->{2}"
                           "".format(fail, "%.5f"%(time.time()-start_time), self))
             self.fail_img()
             raise
@@ -565,11 +585,11 @@ class Page():
             ele.send_keys(text)
             time.sleep(secs)
             ele.send_keys(Keys.ENTER)
-            self.my_print("{0}element <{1}> type content: {2},and sleep {3} seconds,"
+            self.my_info("{0}element <{1}> type content: {2},and sleep {3} seconds,"
                           "input ENTER key, Spend {4} seconds".format(success, css1, text, secs,
                                                                       "%.5f"%(time.time()-start_time)))
         except Exception:
-            self.my_print(
+            self.my_info(
                 "{0}unable element <{1}> type content: {2},and sleep {3} seconds,input"
                 " ENTER key, Spend {4} seconds ->{5}".format(fail, css1, text, secs,
                                                        "%.5f"%(time.time()-start_time), self))
@@ -589,12 +609,12 @@ class Page():
             result = WebDriverWait(self.driver, timeout, 0.5).until\
                 (EC.text_to_be_present_in_element(locator, text))
         except TimeoutException:
-            self.my_print("{0}element not positioned: <{1}> , Spend {2} seconds ->{3}"
+            self.my_info("{0}element not positioned: <{1}> , Spend {2} seconds ->{3}"
                           "".format(fail, locator1, "%.5f"%(time.time()-start_time), self))
             self.fail_img()
             return False
         else:
-            self.my_print("{0}positioned to element: <{1}> , Spend {2} seconds"
+            self.my_info("{0}positioned to element: <{1}> , Spend {2} seconds"
                           "".format(success, locator1, "%.5f"%(time.time()-start_time)))
             return result
 
@@ -611,12 +631,12 @@ class Page():
             result = WebDriverWait(self.driver,timeout,0.5).until\
                 (EC.text_to_be_present_in_element_value(locator, value))
         except TimeoutException:
-            self.my_print("{0}element not positioned: <{1}> , Spend {2} seconds ->{3}"
+            self.my_info("{0}element not positioned: <{1}> , Spend {2} seconds ->{3}"
                           .format(fail, locator1, "%.5f"%(time.time()-start_time), self))
             self.fail_img()
             return False
         else:
-            self.my_print("{0}positioned to element: <{1}> , Spend {2} seconds"
+            self.my_info("{0}positioned to element: <{1}> , Spend {2} seconds"
                           .format(success, locator1, "%.5f"%(time.time()-start_time)))
             return result
 
@@ -638,10 +658,10 @@ class Page():
         start_time = time.time()
         try:
             self.assertEqual(loc, text)
-            self.my_print("{0}say with certainty: {1} == {2}, Spend {3} seconds"
+            self.my_info("{0}say with certainty: {1} == {2}, Spend {3} seconds"
                           "".format(success, loc, text, "%.5f"%(time.time()-start_time)))
         except Exception:
-            self.my_print("{0}say with certainty: {1} != {2}, Spend {3} seconds ->{4}"
+            self.my_info("{0}say with certainty: {1} != {2}, Spend {3} seconds ->{4}"
                           "".format( fail, loc, text, "%.5f"%(time.time()-start_time), self))
             self.assert_img()
             raise
@@ -656,10 +676,10 @@ class Page():
         start_time = time.time()
         try:
             self.assertNotEqual(loc, text)
-            self.my_print("{0}say with certainty: {1} != {2}, Spend {3} seconds"
+            self.my_info("{0}say with certainty: {1} != {2}, Spend {3} seconds"
                           .format(success, loc, text, "%.5f"%(time.time()-start_time)))
         except:
-            self.my_print("{0}say with certainty: {1} == {2}, Spend {3} seconds ->{4}"
+            self.my_info("{0}say with certainty: {1} == {2}, Spend {3} seconds ->{4}"
                           .format(fail, loc, text, "%.5f"%(time.time()-start_time), self))
             self.assert_img()
             raise
@@ -675,9 +695,9 @@ class Page():
         t1 = time.time()
         try:
             self.driver.execute_script(script)
-            self.my_print("{0}execute javascript scripts: {1}, Spend {2} seconds".format(success,script, time.time() - t1))
+            self.my_info("{0}execute javascript scripts: {1}, Spend {2} seconds".format(success,script, time.time() - t1))
         except Exception:
-            self.my_print("{0}unable to execute javascript scripts: {1}, Spend {2} seconds".format(fail,
+            self.my_info("{0}unable to execute javascript scripts: {1}, Spend {2} seconds".format(fail,
                 script, time.time() - t1))
             self.fail_img()
             raise

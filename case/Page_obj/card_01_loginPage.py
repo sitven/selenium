@@ -2,12 +2,13 @@
 # coding=utf-8
 
 from public.base import Page
-
+from time import sleep
 class Login(Page):
     ''' 账户登录测试 '''
 
     # 子域名
     url = '/dist/index.html'
+    url_setcard = '/dist/index.html#/Setcard/'
 
     # 定位器
     login_username_loc = ('xpath', "//input[@autofocus='autofocus']")       # 账号
@@ -21,7 +22,7 @@ class Login(Page):
     def login_passwd(self, passwd):
         self.input_box(self.login_passwd_loc, passwd)
 
-    def login_verify(self,verify):
+    def login_verify(self, verify):
         self.input_box(self.login_verify_loc, verify)
 
     def login_button(self):
@@ -38,14 +39,20 @@ class Login(Page):
         self.login_verify(verify)
         self.login_button()
 
-    # 登录结果
-    login_hint_loc = ('xpath', "//div[@class='tips']")                          # 失败提示
-    login_succee_loc = ('xpath', "//button[@class='btn btn-blueframe']")        # 成功标题
+    def cookie_login(self, cookie):
+        self.open_url(self.url)
+        self.browser_add_cookies(cookie)
+        self.open_url(self.url_setcard)
 
-    # 获取失败文案
-    def get_fial_text(self):
+    # 登录结果
+    login_hint_loc = ('xpath', "//div[@class='tips']")                          # 错误提示文案
+    login_role_loc = ('xpath', "//button[@class='btn']")                        # 登录角色
+
+    # 获取登录失败提示文案
+    def get_error_text(self):
         return self.get_text(self.login_hint_loc)
 
-    # 获取成功页面微信查看按钮文案
-    def get_succees_text(self):
-        return self.get_text(self.login_succee_loc)
+    # 获取登录账号角色
+    def get_role_text(self):
+        self.element_wait_visible(self.login_role_loc)
+        return self.get_text(self.login_role_loc)
